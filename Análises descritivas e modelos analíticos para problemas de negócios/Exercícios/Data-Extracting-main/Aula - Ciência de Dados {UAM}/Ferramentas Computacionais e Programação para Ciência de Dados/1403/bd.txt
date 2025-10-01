@@ -1,0 +1,116 @@
+CREATE DATABASE loja;
+
+USE loja;
+
+CREATE TABLE cidade (
+	idCidade INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE pessoa (
+	idPessoa INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL ,
+    altura DOUBLE DEFAULT 1.5 ,
+    nascimento DATE DEFAULT '1986-02-15' ,
+    codCidade INT ,
+    FOREIGN KEY (codCidade) REFERENCES cidade(idCidade)
+);
+
+CREATE TABLE categoria (
+	idCategoria INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE produto (
+	idProduto INT NOT NULL AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL ,
+    preco DOUBLE ,
+    quantidade DOUBLE ,
+    codCategoria INT NOT NULL,
+    PRIMARY KEY ( idProduto ) ,
+    FOREIGN KEY (codCategoria) REFERENCES categoria(idCategoria)
+);
+
+
+CREATE TABLE pedido (
+	idPedido INT NOT NULL AUTO_INCREMENT,
+    horario DATETIME NOT NULL DEFAULT NOW() ,
+    endereco VARCHAR(200) ,
+    obs TEXT ,
+    codCliente INT NOT NULL,
+    PRIMARY KEY ( idPedido ) ,
+    FOREIGN KEY (codCliente) REFERENCES pessoa(idPessoa)
+);
+
+CREATE TABLE pedido_produto (
+	codPedido INT NOT NULL ,
+    CodProduto INT NOT NULL , 
+    preco DOUBLE ,
+    quantidade DOUBLE ,
+    PRIMARY KEY ( codPedido, codProduto ) ,
+    FOREIGN KEY (codPedido) REFERENCES pedido(idPedido) ,
+    FOREIGN KEY (codProduto) REFERENCES produto(idProduto)
+);
+
+INSERT INTO cidade VALUES ( 1 , "Porto Alegre" );
+INSERT INTO cidade VALUES ( NULL , "Alvorada" );
+INSERT INTO cidade (nome) VALUES ( "Capão da Canoa" );
+INSERT INTO cidade VALUES ( NULL , "Canoas" ) , ( NULL, "Esteio" );
+INSERT INTO cidade (nome) VALUES ( "Guaíba" ) , ( "Viamão" );
+
+
+INSERT INTO pessoa VALUES 
+( 1 , "João da Silva", 1.68 , "1975-05-20", 2 );
+INSERT INTO pessoa VALUES 
+( NULL , "Maria", 1.75 , "1992-12-05", 1 );
+
+INSERT INTO pessoa ( nome, nascimento, altura, codcidade) VALUES 
+( "Júlia",  "2008-10-18", 1.65 , 1 );
+
+INSERT INTO pessoa ( nome, nascimento, altura, codcidade) VALUES 
+( "Suzy", "1987-10-25",  1.85 , 3 ) , 
+( "Carlos", "1995-10-25",  1.93 , 1 ) ,
+( "José", "1987-11-29",  1.70 , 2 ) ;
+INSERT INTO pessoa ( nome)  VALUES  ( "Jorge" );
+
+INSERT INTO categoria (nome) VALUES 
+( "Bebidas" ) ,
+( "Alimentos" ) ,
+( "Eletrônicos" );
+
+INSERT INTO produto (nome, preco, quantidade, codCategoria)
+VALUES 
+( "Coca-Cola 2L" , 7.29 , 100 , 1 ) ,
+( "Pepsi 2L" , 5.99 , 80 , 1 ) ,
+( "Arroz" , 4.29 , 50 , 2 ) ,
+( "Feijão" , 5.19 , 75 , 2 ) ,
+( "iPhone 14" , 7299.00 , 10 , 3 ) ,
+( "Fanta" , 6.29 , 100 , 1 ) ,
+( "Sansung Galaxy" , 1299.95 , 5 , 3 );
+
+INSERT INTO pedido ( horario , endereco, obs, codCliente)
+VALUES
+( "2023-10-15 08:10:54" , "Rua A, 100", "Troco para 50", 2 ); 
+
+INSERT INTO pedido (  endereco, obs, codCliente)
+VALUES
+( "Rua B, 110", "", 1 ); 
+
+INSERT INTO pedido_produto 
+(codPedido, codProduto, preco, quantidade)
+VALUES 
+( 1 , 3 , 4.29 , 2 ) ,
+( 1 , 1 , 7.29 , 3 ) ,
+( 1 , 6 , 6.29 , 1 ) ;
+
+
+INSERT INTO pedido_produto 
+(codPedido, codProduto, preco, quantidade)
+VALUES 
+( 2 , 5 , 7299 , 1 ) ,
+( 2 , 1 , 8.50 , 2 ) ,
+( 2 , 2 , 5.99 , 5 ) ,
+( 2 , 4 , 5.19 , 1 ) ;
+
+INSERT INTO produto ( nome, preco, quantidade ) VALUES
+("Sabão", 5.99, 10 );
