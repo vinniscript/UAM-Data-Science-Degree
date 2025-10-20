@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Estruturas de Dados e Análises de Algoritmos.iml" filepath="$PROJECT_DIR$/Estruturas de Dados e Análises de Algoritmos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula02/aula02.iml" filepath="$PROJECT_DIR$/aula02/aula02.iml" />
+    </modules>
+  </component>
+</project>
