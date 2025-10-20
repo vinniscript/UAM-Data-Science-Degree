@@ -5,11 +5,14 @@ public class Main {
 
         Stack s = new Stack(5); // Cria uma pilha com capacidade para 5 elementos
 
-        s.show(); // Deve exibir "Pilha Vazia"
+        System.out.println(s.show()); // Deve exibir "Stack is empty."
+
         s.push(10);
         s.push(20);
         s.push(30);
+
         System.out.println(s.show()); // Deve exibir [10, 20, 30]
+
 
         System.out.println("Desempilhado: " + s.pop()); // Deve exibir 30
         System.out.println(s.show()); // Deve exibir [10, 20]
