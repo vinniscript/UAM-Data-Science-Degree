@@ -1,0 +1,26 @@
+Trabalho de conclusão de semestre - Estrutura de Dados e Análise de Algoritmos.
+
+Assunto: Algoritmos de ordenação.
+
+algorítmos escolhidos:
+
+1. MergeSort
+2. QuickSort
+3. ShellSort
+4. BucketSort
+
+Especificação do relatório
+
+                 O relatório deverá ter 3 partes.
+
+1- Na primeira parte o grupo explicará o funcionamento detalhado do algoritmo escolhido na lista acima, mostrando como ele funciona.
+
+2- Na segunda parte, o grupo mostrará os resultados dos testes feitos, com os vetores gerados e a quantidade de comparações e trocas feitas. Os vetores deverão ter tamanhos como 1000, 5000, 10.000, 50.000, 100.000, 500.000, 1.000.000, etc. Devem ser feitos 3 testes para cada algoritmo e tamanho de vetor, com vetores diferentes. Utilize o valor médio obtido nos testes para montar um gráfico com os resultados obtidos.
+
+ATENÇÃO: lembre-se que o vetor a ser ordenado DEVE ser o MESMO, caso contrário a comparação dos resultados obtidos na ordenação perde a validade!
+
+Além de variar os tamanhos do vetor, devem ser feitos estudos sobre o que ocorre se o vetor de entrada estiver: já ordenado crescente e já ordenado decrescente para estudo de melhor ou pior caso.
+
+3- Na terceira parte, o grupo deve escrever sobre a COMPLEXIDADE teórica do algoritmo e escrever uma CONCLUSÃO, comparando os dois tipos de ordenação, e quando usar cada um deles. O grupo não deve apenas repetir as informações obtidas na etapa anterior, mas analisar os resultados e escrever suas conclusões.
+
+O relatório deve indicar as fontes usadas como referência na pesquisa.
