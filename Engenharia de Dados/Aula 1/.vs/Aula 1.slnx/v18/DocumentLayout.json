@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vini\\OneDrive - Cast Informatica SA\\Documentos\\UAM\\8\u00BA Semestre\\Engenharia de Dados\\Meus estudos\\DataCommerce\\Aula 1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vini\\OneDrive - Cast Informatica SA\\Documentos\\UAM\\8\u00BA Semestre\\Engenharia de Dados\\Meus estudos\\DataCommerce\\Aula 1\\Criando o banco.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Criando o banco.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vini\\OneDrive - Cast Informatica SA\\Documentos\\UAM\\8\u00BA Semestre\\Engenharia de Dados\\Meus estudos\\DataCommerce\\Aula 1\\Come\u00E7o do entendimento do SQL.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Come\u00E7o do entendimento do SQL.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vini\\OneDrive - Cast Informatica SA\\Documentos\\UAM\\8\u00BA Semestre\\Engenharia de Dados\\Meus estudos\\DataCommerce\\Aula 1\\Cria\u00E7\u00E3o das tabelas.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cria\u00E7\u00E3o das tabelas.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vini\\OneDrive - Cast Informatica SA\\Documentos\\UAM\\8\u00BA Semestre\\Engenharia de Dados\\Meus estudos\\DataCommerce\\Aula 1\\Entendo schemas.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Entendo schemas.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3eb44d79-dda1-4580-b810-0808975173e4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Entendo schemas.sql - 172.20.39.102,1433.master (sa (71))",
+              "DocumentMoniker": "C:\\Users\\vini\\OneDrive - Cast Informatica SA\\Documentos\\UAM\\8\u00BA Semestre\\Engenharia de Dados\\Meus estudos\\DataCommerce\\Aula 1\\Entendo schemas.sql",
+              "RelativeDocumentMoniker": "Entendo schemas.sql",
+              "ToolTip": "C:\\Users\\vini\\OneDrive - Cast Informatica SA\\Documentos\\UAM\\8\u00BA Semestre\\Engenharia de Dados\\Meus estudos\\DataCommerce\\Aula 1\\Entendo schemas.sql - 172.20.39.102,1433.master (sa (71))",
+              "RelativeToolTip": "Entendo schemas.sql - 172.20.39.102,1433.master (sa (71))",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-09-06T15:41:41.07Z",
+              "EditorCaption": " - 172.20.39.102,1433.master (sa (71))"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Criando o banco.sql - 172.20.39.102,1433.master (sa (62))",
+              "DocumentMoniker": "C:\\Users\\vini\\OneDrive - Cast Informatica SA\\Documentos\\UAM\\8\u00BA Semestre\\Engenharia de Dados\\Meus estudos\\DataCommerce\\Aula 1\\Criando o banco.sql",
+              "RelativeDocumentMoniker": "Criando o banco.sql",
+              "ToolTip": "C:\\Users\\vini\\OneDrive - Cast Informatica SA\\Documentos\\UAM\\8\u00BA Semestre\\Engenharia de Dados\\Meus estudos\\DataCommerce\\Aula 1\\Criando o banco.sql - 172.20.39.102,1433.master (sa (62))",
+              "RelativeToolTip": "Criando o banco.sql - 172.20.39.102,1433.master (sa (62))",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-09-06T15:41:40.423Z",
+              "EditorCaption": " - 172.20.39.102,1433.master (sa (62))"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Come\u00E7o do entendimento do SQL.sql - 172.20.39.102,1433.master (sa (82))",
+              "DocumentMoniker": "C:\\Users\\vini\\OneDrive - Cast Informatica SA\\Documentos\\UAM\\8\u00BA Semestre\\Engenharia de Dados\\Meus estudos\\DataCommerce\\Aula 1\\Come\u00E7o do entendimento do SQL.sql",
+              "RelativeDocumentMoniker": "Come\u00E7o do entendimento do SQL.sql",
+              "ToolTip": "C:\\Users\\vini\\OneDrive - Cast Informatica SA\\Documentos\\UAM\\8\u00BA Semestre\\Engenharia de Dados\\Meus estudos\\DataCommerce\\Aula 1\\Come\u00E7o do entendimento do SQL.sql - 172.20.39.102,1433.master (sa (82))",
+              "RelativeToolTip": "Come\u00E7o do entendimento do SQL.sql - 172.20.39.102,1433.master (sa (82))",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-09-06T15:41:41.327Z",
+              "EditorCaption": " - 172.20.39.102,1433.master (sa (82))"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cria\u00E7\u00E3o das tabelas.sql - 172.20.39.102,1433.master (sa (81))",
+              "DocumentMoniker": "C:\\Users\\vini\\OneDrive - Cast Informatica SA\\Documentos\\UAM\\8\u00BA Semestre\\Engenharia de Dados\\Meus estudos\\DataCommerce\\Aula 1\\Cria\u00E7\u00E3o das tabelas.sql",
+              "RelativeDocumentMoniker": "Cria\u00E7\u00E3o das tabelas.sql",
+              "ToolTip": "C:\\Users\\vini\\OneDrive - Cast Informatica SA\\Documentos\\UAM\\8\u00BA Semestre\\Engenharia de Dados\\Meus estudos\\DataCommerce\\Aula 1\\Cria\u00E7\u00E3o das tabelas.sql - 172.20.39.102,1433.master (sa (81))",
+              "RelativeToolTip": "Cria\u00E7\u00E3o das tabelas.sql - 172.20.39.102,1433.master (sa (81))",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-09-06T15:41:30.231Z",
+              "EditorCaption": " - 172.20.39.102,1433.master (sa (81))"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

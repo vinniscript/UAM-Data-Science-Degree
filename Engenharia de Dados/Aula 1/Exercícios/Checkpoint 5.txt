@@ -1,0 +1,77 @@
+﻿CHECKPOINT 5 — Mapa de fontes do projeto
+
+
+Exercício 1
+Explique a função de cada coluna da tabela auditoria.fontes_dados:
+- fonte_id -> Identificador da fonte
+- nome fonte -> Nome da fonte
+- tipo -> Formato ou tecnologia
+- destino -> Qual tabela os dados serão direcionados
+- observação -> Explica a finalidade da fonte
+
+Resposta: ta depois dos '->'
+
+
+Exercício 2
+O que significa IDENTITY(1,1)? Explique separadamente o primeiro e o segundo número.
+
+Resposta: O primeiro '1' antes da virgula é o valor inicial do primeiro identificador. O segundo é de quanto em quanto será somado a partir dali.
+
+
+Exercício 3
+Por que fonte_id não deve ser informado no INSERT usado nesta aula?
+
+Resposta: Pois, por conta do IDENTITY, o SQL server o autoincrementará 
+
+
+Exercício 4
+Compare os dois estilos:
+
+A)
+INSERT INTO auditoria.fontes_dados
+VALUES (N'clientes.csv', N'CSV', N'staging.clientes_csv', N'Carga externa de clientes');
+
+B)
+INSERT INTO auditoria.fontes_dados
+(
+    nome_fonte,
+    tipo,
+    destino,
+    observacao
+)
+VALUES
+(
+    N'clientes.csv',
+    N'CSV',
+    N'staging.clientes_csv',
+    N'Carga externa de clientes'
+);
+
+Qual deles deixa mais explícita a correspondência entre colunas e valores? Qual risco existe ao omitir a lista de colunas?
+
+Resposta: B, pois facilita a leitura, deixa óbvio quais colunas estão sendo alteradas e sua ordem. Em caso de erros, facilita o troubleshooting.
+
+
+Exercício 5
+Se quatro fontes forem inseridas em uma tabela vazia cuja coluna fonte_id é IDENTITY(1,1), quais IDs você espera que sejam gerados?
+
+Resposta: 1,2,3 e 4
+
+
+Exercício 6
+Explique o que esta consulta valida:
+
+SELECT
+    tipo,
+    COUNT(*) AS quantidade
+FROM auditoria.fontes_dados
+GROUP BY tipo
+ORDER BY tipo;
+
+Resposta: A quantidade de linhas que aparecem para cada valor distinto da coluna 'tipo', algo como: 'CSV', 2; 'xlsx', 5: 'txt', 12. Todavia, por questão do ORDER BY, o retorno respeitará a ordem alfabética da coluna tipo.
+
+
+Exercício 7
+Qual é a diferença entre o destino staging.clientes_csv e a tabela auditoria.fontes_dados? A tabela de destino já foi criada só porque seu nome foi registrado no mapa?
+
+Resposta: Não, isso pode ser apenas um arcabouço da estrutura que será ainda criada ao decorrer das consultas e incrementos.

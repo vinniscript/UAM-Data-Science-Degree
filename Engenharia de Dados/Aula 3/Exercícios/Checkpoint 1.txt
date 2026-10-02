@@ -1,0 +1,58 @@
+﻿CHECKPOINT 1 — AULA 3
+Clientes, produtos, tipos e constraints
+
+1. Explique por que cliente_id e produto_id são chaves primárias.
+
+Resposta: Por serem identificadores fáceis normalmente definidos por um INT de intervalos diferentes. Facilmente buscáveis e legíveis
+
+
+2. Explique a diferença entre PRIMARY KEY e UNIQUE usando cliente_id e email como exemplos.
+
+Resposta: PRIMARY KEY é justamente o identificador de uma linha toda e pode ser usando como referência em outra tabela, sendo chamado como FK. A única semelhança é que ambos não podem ter duplicadas dentro da coluna. 
+
+
+3. Por que uf foi definida como CHAR(2), enquanto nome foi definido como NVARCHAR(120)?
+
+Resposta: UF é um código padrão de abreviação de nomes dos estados brasileiros, usados como padrão por 2 letras, como SP -> São Paulo. NVARCHAR(120) é uma tipo de texto que pode conter espaço, pontuações, caracteres especiais dentro de um intervalo de 120 caracteres.
+
+
+4. Explique o significado de DECIMAL(18,2). O que representam 18 e 2?
+
+Resposta: É a limitação do tamanho da amostra de um número, nesse caso, 16 casas inteiras, 2 decimais. O primeiro parâmetro sendo o total de números devolvidos, o segundo o tanto de casas decimais a se mostrar Ex.: 1234567891011121,12.
+
+
+5. O que deve acontecer ao tentar cadastrar um produto com preco = -10? Qual regra causará esse comportamento?
+
+Resposta: preco = -10 é totalmente plausível dentro de uma coluna que não tenha definido uma constraint CHECK na coluna preço. Caso o tenha feito (algo como CONSTRAINT checa_preco CHECK (preco >= 0)), retornará erro pelo descumprimento da regra pré-estabelecida
+
+
+6. Se data_cadastro não for informada no INSERT, de onde virá seu valor?
+
+Resposta: Do próprio sistema do SQL Server, caso DEFAULT tenha sido devidamente definido.
+
+
+7. Classifique as instruções abaixo como DDL, DML ou consulta:
+- CREATE TABLE -> DDL
+- INSERT INTO -> DML
+- SELECT -> DQL / (DML, para se encaixar em uma das respostas) 
+- ALTER TABLE -> DDL
+- UPDATE -> DML
+
+8. Preveja o resultado lógico do catálogo após a criação das tabelas origem.clientes e origem.produtos. Quantas tabelas devem ser encontradas?
+
+Resposta: 2
+
+
+9. Depuração: identifique o problema conceitual neste cadastro:
+
+CREATE TABLE origem.produtos
+(
+    produto_id INT PRIMARY KEY,
+    sku NVARCHAR(30),
+    produto NVARCHAR(120),
+    preco DECIMAL(18,2)
+);
+
+Considere que SKU, nome e preço são obrigatórios, SKU não pode repetir e preço não pode ser negativo.
+
+Resposta: Está faltando CONSTRAINTS. no produto_id não sei se é necessário explicitar que é NOT NULL, mas é geralmente colocam. Se SKU é obrigatório, precisa-se do NOT NULL e UNIQUE, já que repetição não é aceitável. Preço precisa de uma constraint de check, onde preco >= 0.

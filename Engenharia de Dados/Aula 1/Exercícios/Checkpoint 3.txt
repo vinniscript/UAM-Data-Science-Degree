@@ -1,0 +1,92 @@
+Checkpoint 3
+
+
+Exercício 1
+
+
+Explique a diferença entre:
+
+CREATE SCHEMA auditoria;
+
+e:
+
+CREATE TABLE auditoria.controle_aulas (...);
+
+R: CREATE SCHEMA auditoria cria um schema chamado auditoria e CREATE TABLE auditoria.controle_aulas cria uma tabela chamada controle aulas dentro diretamente dentro do schema auditoria
+
+---
+
+Exercício 2
+
+
+Qual schema você escolheria para cada objeto?
+
+1. Dados recém-importados de clientes.csv, ainda sem tratamento.
+2. Registro dos horários e resultados de uma execução de ETL.
+3. Relação de clientes com CPF inválido.
+4. Tabela analítica de vendas destinada ao Power BI.
+5. Cadastro operacional de produtos.
+6. Tabela usada para associar usuários a perfis de acesso.
+
+Escolha entre:
+
+origem - 5
+staging - 1
+qualidade - 3 
+dw - 4
+auditoria - 2
+segurança - 6
+
+---
+
+Exercício 3
+
+
+O que acontece na segunda execução?
+
+IF SCHEMA_ID('auditoria') IS NULL
+EXEC('CREATE SCHEMA auditoria');
+
+1. O schema é apagado e recriado.
+2. Um segundo schema de mesmo nome é criado.
+3. O EXEC não é executado.
+4. Todos os objetos do schema são apagados.
+
+R: 3
+
+---
+
+Exercício 4
+
+
+Qual a diferença entre estas validações?
+
+SELECT name
+FROM sys.schemas
+WHERE name IN ('origem', 'staging', 'qualidade');
+
+e:
+
+SELECT COUNT(*)
+FROM sys.schemas
+WHERE name IN ('origem', 'staging', 'qualidade');
+
+R: Um está filtrando por nomes dentro da lista de schemas, o outro está contando quantos da lista tem no schema. Um devolverá uma lista com o os nomes chamados, o outro retornará um valor de quantos haviam dos nomes chamados
+
+---
+
+Exercício 5: previsão
+
+
+Sem executar primeiro, diga o que espera desta consulta:
+
+SELECT
+DB_NAME() AS banco_atual,
+SCHEMA_ID('auditoria') AS auditoria_id,
+SCHEMA_ID('schema_inventado') AS inventado_id;
+
+Explique o resultado esperado de cada coluna.
+
+R: banco atual: DataCommerce
+   auditoria_id: 4
+   inventado_id: null

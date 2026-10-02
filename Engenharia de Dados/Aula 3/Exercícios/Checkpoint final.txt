@@ -1,0 +1,125 @@
+﻿CHECKPOINT FINAL — AULA 3
+Modelagem relacional, DDL, DML, constraints, JOINs e transações
+
+1. Explique a diferença entre entidade, tabela, atributo, coluna e registro.
+
+Resposta: Tabela armazena dados, separando seus valores entre colunas e linhas. Uma entidade é um conceito que virará uma tabela, algo como "cliente" ou "produto". Pensamos em suas propriedades e atributos, então criamos a tabela. Atributo são suas características, como "nome", "e-mail", "CPF", "sku" etc. Coluna é onde vemos os atributos da tabela, onde cada registro terá sua respectiva linha com o dado daquela coluna. Um registro é uma ocorrência válida no banco, onde a coluna, linha e suas respectivas regras foram respeitada numa nova inserção/alteração no banco alvo.
+
+
+2. Explique a diferença entre PRIMARY KEY, FOREIGN KEY e UNIQUE. Use exemplos do DataCommerce.
+
+Resposta: PK é o registro do identificador da tabela, só pode haver um por tabela. FK é o identificador chave de uma tabela de fora, cujo usamos para bater informações de relacionamentos, por vezes, até por mais tabelas, cruzando informações. UNIQUE é um regra que aquela informação não pode se repetir na tabela, mas podem haver diversas colunas com a CONSTRAINT unique.
+
+3. Por que origem.itens_pedido é a ponte entre origem.pedidos e origem.produtos?
+
+Resposta: Pois é pedidos e produtos tem um relacionamento N:N, (Vários pedidos para vários produtos). Segregamos isso em uma tabela que transforme origem.pedido 1:N itens.pedidos N:1 origem.produto, onde um pedido pode conter uma listagem de vários produtos, e 1 produto cadastrado pode aparecer em diversas listagens de pedidos.
+
+
+4. O que a chave primária composta (pedido_id, produto_id) impede?
+
+Resposta: que o mesmo pedido_id e produto_id se repita em 2 registros distintos, pedido_id sempre precisa avançar numa nova requisição, lembrando que um pedido com mais de um produto pode fazer aparecer na QUERY "pedido_id" mais de uma vez, mas isso não é uma duplicata, pois produto_id precisa ser diferente do retorno logo acima dele (se o produto_id for o mesmo). Ou seja, pedido_id = 1 -> produto_id = 1, válido pedido_id = 1 -> produto_id = 2, também válido. Agora, se aparecer novamente pedido_id = 1 -> produto_id = 1, isso é inválido. Isso já existe no banco e seria uma duplicata
+
+
+5. Diferencie DDL, DML e consulta. Classifique CREATE TABLE, ALTER TABLE, INSERT, UPDATE, DELETE e SELECT.
+
+Resposta: DDL é Data Definition Language, ele arquiteta, cria banco, schemas, cria e altera tabelas, DML é Data Manipulation Language, onde respeitando a arquitetura criada pela DDL, apenas modificamos os atributos dentro.
+
+Comandos DDL -> CREATE TABLE, ALTER TABLE e DROP
+comandos DML -> INSERT, UPDATE e DELETE
+comando QUERY -> SELECT
+
+
+6. Explique a função de NOT NULL, DEFAULT e CHECK. Use exemplos implementados nesta aula.
+
+Resposta: NOT NULL não pode ser NULL, como cliente_id. DEFAULT é o valor padrão caso nada seja passado num novo registro como em data registro usando SYSDATETIME() e CHECK fazendo uma validação de valores aceitáveis para uma coluna, como quantidade não podendo ser < ou igual a 0
+
+
+7. Por que o JOIN entre pedidos e produtos precisa passar por itens_pedido?
+
+Resposta: por que é itens pedidos que contém a PK de ambas para fazer a correlação.
+
+
+8. Explique a função de ON em um JOIN. O que representam estas condições?
+- c.cliente_id = p.cliente_id
+- i.pedido_id = p.pedido_id
+- pr.produto_id = i.produto_id
+
+Resposta: ON é a condição para a junção. JOIN "chama" as tabelas para conhecermos seus dados e atributos, ON atribui uma regra para que seus valores façam sentido com aquilo que é requisitado. Por exemplo em c.cliente_id = p.cliente_id, estamos correlacionando que todo cliente_id em origem.clientes bata e se relacione com cliente_id de origem.produtos. Assim, no select qualquer outro atributo que quisermos pegar será associado corretamente aos respectivos IDs.
+
+
+9. Explique a diferença entre uma consulta detalhada e uma consulta agregada com SUM e GROUP BY.
+
+Resposta: Uma consulta detalhada retorna os registros linha por linha, enquanto uma agregada retorna em blocos
+
+10. Qual é a diferença entre BEGIN TRANSACTION, COMMIT e ROLLBACK?
+
+Resposta: BEGIN TRANSACTION inicia um "bloco seguro", como a área de stagging num git. Faça as alterações que deseja e consulte no final para ver se era aquilo mesmo que queria. Se for, COMMIT, que salva definitivamente as alterações no banco. Não deu bom? ROLLBACK. Volta para o ponto antes do BEGIN TRANSACTION de forma totalmente segura.
+
+
+11. Por que um valor IDENTITY pode apresentar lacunas mesmo após ROLLBACK?
+
+Resposta: Por que ROLLBACK não tem influência sobre o SCOPE_IDENTITY(). Uma vez que uma adição numa coluna com IDENTITY for feita, o SCOPE_IDENTITY() é atualizado, mesmo retornando com ROLLBACK, essa atualização se mantém.
+
+
+12. O que SCOPE_IDENTITY() devolve e por que usamos CONVERT(INT, SCOPE_IDENTITY()) neste laboratório?
+
+Resposta: ele devolve um NUMERIC(38,2). Usamos CONVERT para deixar claro que estamos buscando trabalhar com INT, mesmo que funcione algo como @ClientId = SCOPE_IDENTITY().
+
+
+13. Por que foi necessário adicionar vendedor_id como NULL, preencher os pedidos existentes e somente depois alterar a coluna para NOT NULL?
+
+Resposta: Pois adicionar direto o NOT NULL ia quebrar a regra num primeiro momento por haver NULL na tabela, então primeiro criamos como podendo haver NULL, preenchemos até não ter mais nenhum, depois disso, nenhuma adição com NULL será permitida.
+
+
+14. Explique o relacionamento entre vendedores e pedidos. Em qual lado está o 1 e em qual lado está o N?
+
+Resposta: vendedores 1:n pedidos. Pois um vendedor pode ser responsável por 1 ou mais pedidos, e cada pedido pode ter o id de apenas 1 vendedor responsável
+
+
+15. Depuração: explique por que esta condição está errada:
+
+ON pr.produto_id = p.produto_id
+
+Resposta: p (origem.pedido) não contém produto_id como FK em sua tabela. Então está requisitando uma correlação não existente.
+
+
+16. Depuração: por que executar várias vezes um INSERT de pedido com COMMIT criou pedidos logicamente repetidos, mesmo com PRIMARY KEY?
+
+Resposta: Por não termos criado uma condição IF NOT EXISTS... Então foi se criando e commitando em seguida conforme eu fosse executando.
+
+
+17. Escreva uma consulta que mostre:
+- pedido_id
+- cliente
+- vendedor
+- produto
+- quantidade
+- valor_unitario
+- subtotal
+
+Use as tabelas origem.pedidos, origem.clientes, origem.vendedores, origem.itens_pedido e origem.produtos.
+
+Resposta: 
+
+SELECT
+	p.pedido_id,
+	c.nome AS cliente,
+	v.nome AS vendedor,
+	pr.produto,
+	i.quantidade,
+	i.valor_unitario,
+	i.valor_unitario * i.quantidade AS subtotal
+FROM origem.pedidos AS p
+INNER JOIN origem.clientes AS c
+	ON c.cliente_id = p.cliente_id
+INNER JOIN origem.vendedores AS v
+	ON v.vendedor_id = p.vendedor_id
+INNER JOIN origem.itens_pedido AS i
+	ON i.pedido_id = p.pedido_id
+INNER JOIN origem.produtos AS pr
+	ON pr.produto_id = i.produto_id
+
+
+18. Desafio conceitual: explique como as constraints dessa aula protegem o banco mesmo quando um sistema, script ou usuário envia dados incorretos.
+
+Resposta: Ela protege a integridade dos dados, impede que alguém mande algo com quantidade 0, um cliente sem ID, um produto em SKU, um registro sem data. Impede qualquer coisa que quebraria a funcionalidade do banco.

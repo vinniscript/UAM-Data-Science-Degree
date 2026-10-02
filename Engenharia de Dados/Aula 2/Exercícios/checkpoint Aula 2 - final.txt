@@ -1,0 +1,74 @@
+﻿CHECKPOINT FINAL — AULA 2
+Instância, bancos, schemas, arquivos, backup e restore
+
+Nome: ____________________________________
+Data: _____________________________________
+
+1. Explique a diferença entre instância, banco de dados, schema e tabela.
+
+Resposta: Instância é uma espécie de processo cujo o banco roda em cima, o banco de dados armazena informações contidas em tabelas, os schemas armazenam e organizam essas tabelas, já as tabelas trabalham com colunas e linhas para armazenar dados com um mínimo de contexto identificável
+
+
+2. Explique a função principal dos arquivos MDF e LDF.
+
+Resposta: MDF é o "arquivo em si" do banco, o LDF é o arquivo de registros e logs do banco.
+
+
+3. Por que o caminho C:\Users\vini\OneDrive... não podia ser usado diretamente pelo BACKUP DATABASE executado no SQL Server do contêiner?
+
+Resposta: Por que estamos num Docker via WSL. O esquema de pastas é complexo e o SQL Server reside naquela instância online no momento da execução, tendo poder de alteração apenas no seu próprio contexto, naquela instância ligada do Docker. C:\Users\vini\OneDrive... é uma pasta distinta na minha máquina, completamente fora do Docker.
+
+
+4. Explique a diferença entre nome lógico do arquivo e caminho físico.
+Use DataCommerce e /var/opt/mssql/data/DataCommerce.mdf como exemplos.
+
+Resposta: Nome lógico é o nome dado ao banco, o caminho físico é onde fica o .mdf do seu banco.
+
+
+5. Explique o cálculo abaixo:
+
+size * 8.0 / 1024
+
+O que representa size, por que multiplicamos por 8 e por que dividimos por 1024?
+
+Resposta: size são os números de páginas do banco, multiplica-se essas páginas por 8 para pegar o seu tamanho em kb, depois divide por 1024 para termos o retorno em MB
+
+
+6. Explique a finalidade das opções abaixo em BACKUP DATABASE:
+- INIT
+- COMPRESSION
+- CHECKSUM
+- STATS = 10
+- NAME
+
+Resposta: sobrescreve o arquivo .bak caso já exista um, comprime-o para um tamanho melhor, valida o sha256 do banco para averiguar alterações/corrupções, mostra de 10 em 10 o progresso da porcentagem e depois nomeia o backup
+
+
+7. Qual é a diferença entre RESTORE VERIFYONLY, RESTORE HEADERONLY e RESTORE FILELISTONLY?
+
+Resposta: VERIFYONLY -> apenas valida o restore; HEADERONLY -> pega todo o cabeçalho do .bak; FILELISTONLY -> Retorna o nome dos arquivos físicos do banco
+
+
+8. Por que usamos MOVE durante o restore para DataCommerce_TesteRestore?
+
+Resposta: Pois o restore em si não altera caminhos físicos, fazemos a mão
+
+
+9. O banco original possuía 4 linhas em auditoria.fontes_dados e o banco restaurado também retornou 4. O que essa comparação demonstra? O que ela não demonstra sozinha?
+
+Resposta: Ela demonstra que aparentemente a restauração foi sucedida, no mínimo em números. Ela não demonstra de fato se os dados são os mesmos
+
+
+10. Explique por que restaurar o banco com outro nome é uma validação mais forte do que apenas possuir um arquivo .bak.
+
+Resposta: Pois você terá o empirismo ao seu lado e a comprovação técnica que está funcionando seu banco. Um simples arquivo .bak é corrompível e enquanto não testado, não há garantia de funcionalidade
+
+
+11. Qual é a diferença entre as permissões do login sa dentro do SQL Server e as permissões do usuário mssql no sistema operacional Linux?
+
+Resposta: o as funciona dentro do SQL Server e apenas nele. As permissões de usuário dão ao mssql permissão para gerar, acessar e mover arquivos dentro de sua pasta de contexto no Linux.
+
+
+12. Após validar DataCommerce_TesteRestore, por que é importante executar USE DataCommerce antes de continuar as próximas aulas?
+
+Resposta: Se não as novas alterações e inserções serão feitas no banco restaurado e não no banco alvo que iniciamos as aulas

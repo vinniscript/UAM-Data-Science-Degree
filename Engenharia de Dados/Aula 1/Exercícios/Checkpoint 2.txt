@@ -1,0 +1,93 @@
+Checkpoint 2
+
+---
+
+Exercício 1:
+
+Explique a diferença entre:
+
+  USE DataCommerce;
+
+e
+
+  CREATE DATABASE DataCommerce;
+
+R: USE seleciona o banco Datacommerce, caso já criado, para o contexto atual, já o CREATE criará o banco
+
+---
+
+Exercício 2
+
+O que acontecerá se DataCommerce já existir?
+
+IF DB_ID('DataCommerce') IS NULL
+BEGIN
+CREATE DATABASE DataCommerce;
+END;
+
+Escolha uma alternativa:
+
+1. O banco será apagado e recriado.
+2. Outro banco com o mesmo nome será criado.
+3. O bloco de criação não será executado.
+4. O SQL Server mudará automaticamente para o banco.
+
+R: 3
+
+---
+
+Exercício 3
+
+Depois deste script:
+
+USE master;
+GO
+ 
+USE DataCommerce;
+GO
+ 
+SELECT DB_NAME() AS banco_atual;
+
+Qual deverá ser o resultado e por quê?
+
+R: DataCommerce, pois foi o último a ser chamado pelo USE
+
+---
+
+Exercício 4 
+
+GO é:
+
+1. Uma função do SQL Server.
+2. Um banco de sistema.
+3. Um separador de lotes reconhecido pelo SSMS.
+4. Um comando para salvar alterações.
+
+R: 3
+
+---
+
+Exercício 5
+
+Leia este script, mas não execute ainda:
+
+USE master;
+GO
+ 
+SELECT DB_NAME() AS banco_1;
+GO
+ 
+USE DataCommerce;
+GO
+ 
+SELECT DB_NAME() AS banco_2;
+
+Responda:
+
+1. Quantos lotes existem?
+2. Quantos conjuntos de resultados serão exibidos?
+3. Qual valor deverá aparecer em banco_1?
+4. Qual valor deverá aparecer em banco_2?
+5. A instância muda durante o script?
+
+R: 1. 3; 2. 2; 3. master; 4. DataCommerce; 5. não

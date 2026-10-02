@@ -1,0 +1,104 @@
+﻿CHECKPOINT FINAL — AULA 4
+Consultas, views, stored procedures, DML seguro e DCL
+
+1. Explique o que é uma VIEW e como ela difere de uma tabela.
+
+Resposta: Uma VIEW é uma busca numa ou entre tabelas já salva. Ela poupa você de ficar fazendo JOINS toda vez que quiser mudar algo na busca. Uma VIEW também tem apoia na auditoria e controle, pois uma VIEW no banco pode conter políticas de segurança, limitação de acesso apenas para ROLEs nominais
+
+
+2. Por que origem.vw_vendas_operacionais retorna uma linha por item, enquanto origem.vw_vendas_por_cliente retorna uma linha por cliente?
+
+Resposta: Por conta do GROUP BY
+
+3. O que CREATE OR ALTER resolve durante o desenvolvimento de views e procedures?
+
+Resposta: CRIA se não tem, ALTERA se já tem. Não precisa ficar lidando com a pré-criação ou não da função
+
+
+4. Explique a função de uma stored procedure e a diferença entre consultá-la e consultar uma view.
+
+Resposta: Uma stored procedure é um bloco à ser executado, bloco esse que costuma ser usado para validar regras de negócio, pode inserir, atualizar ou remover dados do banco, realizar COMMITs ou ROLLBACKs e é chamado por EXEC/CALL. 
+
+Uma view é uma simples visualização. É tratado como uma tabela, tanto que pode ser acionada por "FROM vw_exemplo_pratico...", lida com JOINS complexos, podemos liberar apenas dados cujo usuários podem ver, escondendo dados sensíveis apenas para profissionais que trabalharão com ele.
+
+
+5. Para que servem os parâmetros @data_ini e @data_fim em origem.sp_vendas_por_periodo?
+
+Resposta: São as datas de intervalo de busca. Daremos a data de inicio de busca e a data final. Na nossa procedure tem um BETWEEN entre elas, o que filtrará esse intervalo.
+
+
+6. Explique a função de SET NOCOUNT ON dentro de uma procedure.
+
+Resposta: Isso serve como o "@ECHO OFF" num lote de batch do Windows, é para não ficar retornando as linhas, enchendo o console de mensagem.
+
+
+7. Por que validamos datas nulas e período invertido antes de registrar a auditoria e executar a consulta?
+
+Resposta: Essa aqui não me lembro... Para convertermos ao padrão DATE do SQL Server?
+
+
+8. Explique a função de THROW nos testes de parâmetros inválidos.
+
+Resposta: THROW é um erro controlado caso a execução acima der problema. Dentro do THROW você pode definir uma mensagem específica relatando exatamente o que ocasionou o erro.
+
+
+9. Por que @@ROWCOUNT precisa ser capturado imediatamente após UPDATE ou DELETE?
+
+Resposta: Porque ele pega as linhas alteradas da ultima execução. Qualquer outro bloco de execução seguinte atualizará essa variável
+
+
+10. Explique a diferença entre LOGIN, USER e ROLE no SQL Server.
+
+Resposta: LOGIN funciona dentro daquela instância a nível de servidor. Serve para autenticar quem está tentando se conectar ao servidor. No nosso caso, seria o 'sa', USER é uma identidade atrelada a login. Existe em cada banco e um login pode ter vários usuários. ROLE é um agrupamento de permissões. Ao invés de conceder permissão usuário por usuário, é mais simples criar uma ROLE, por exemplo "ROLE analistas" e definir o escopo de visualização e alteração que apenas analistas podem fazer, depois associar essa ROLE a um ou mais usuários.
+
+
+11. Diferencie GRANT, DENY e REVOKE.
+
+Resposta: GRANT -> Define uma permissão a uma ROLE ou USER, DENY Tira alguma permissão dessa ROLE ou USER e REVOKE desfaz a atribuição a um usuário ou ROLE
+
+
+12. Por que aluno_leitura conseguiu executar SELECT na view, mas não conseguiu consultar ou alterar diretamente origem.clientes?
+
+Resposta: Por que o USER aluno leitura está numa ROLE cujo permissão permite visualizaçao da VIEW especificada, mas somente à view, esse USER não tem permissão sobre a tabela em si.
+
+
+13. Explique o que EXECUTE AS USER faz e por que REVERT precisa ser executado ao final do teste.
+
+Resposta: EXECUTE AS USER faz o exatamente o que diz, ele roda a requisição como o usuário estipulado, com as suas respectivas ROLES. REVERT é necessário para retornar ao contexto anterior, se não você seguirá as requisições como aquele usuário.
+
+
+14. O que HAS_PERMS_BY_NAME permitiu validar sem executar uma alteração destrutiva?
+
+Resposta: Essa função nos permite perguntar nominalmente se o USER tem permissões à tabela/ROLE/PROCEDURE passada.
+
+
+15. Por que várias linhas de auditoria com os mesmos parâmetros não são necessariamente duplicatas?
+
+Resposta: Pois pode ter sido executada 2 inserções iguais, mas em tempos diferentes?
+
+
+16. Explique por que o registro de auditoria foi incorporado à própria procedure em vez de depender de INSERT manual.
+
+Resposta: Pois não é prático e suscetível a erros humanos, além da automação ser muito mais precisa
+
+
+17. Explique a granularidade destas duas views:
+- origem.vw_vendas_operacionais
+- origem.vw_vendas_por_cliente
+
+Resposta: Uma retorna linha por linha de cada venda, a outra separa e traz menos linhas com linhas com maior valor informativo
+
+
+18. Escreva uma execução válida de origem.sp_vendas_por_uf para consultar clientes de São Paulo.
+
+Resposta: 
+
+
+19. Depuração: por que esta consulta de catálogo mostrou incorretamente sys.sysrowsets para uma permissão aplicada ao schema origem?
+
+Resposta:
+
+
+20. Desafio integrador: descreva o fluxo completo que permite ao usuário aluno_leitura consultar vendas e executar procedures sem receber permissão de alteração nas tabelas transacionais.
+
+Resposta:

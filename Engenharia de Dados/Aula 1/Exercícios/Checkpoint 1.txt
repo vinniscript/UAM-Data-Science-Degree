@@ -1,0 +1,34 @@
+Exercício 1:
+
+1 - Dado
+2 - Informação
+3 - Conhecimento
+
+Exercício 2:
+
+1 - SQL Server
+2 - SQL
+3 - T-SQL
+4 - SSMS
+
+Exercício 3:
+
+- Instância
+ - Banco de dados
+  - Schema
+   - Tabela
+    - Coluna
+     - Linha
+
+
+Exercício 4:
+
+1 - auditoria.
+2 - controle aulas
+3 - DataCommerce? não entendi muito bem o enunciado
+
+Exercício 5:
+
+Como cada instância há seu próprio banco e gerências distintas, esse equivoco na conexão fará com que eu não chegue àquilo que almejo. 
+
+Dessa forma, o Object Explorer ou estará vazio, caso essa instância nunca tenha sido usada, ou terá outros bancos/schemas/tabelas nele.

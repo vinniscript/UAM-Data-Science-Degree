@@ -1,0 +1,88 @@
+﻿CHECKPOINT 4 — Primeira tabela: auditoria.controle_aulas
+
+
+Exercício 1
+Explique com suas palavras a função de cada coluna da tabela:
+- aula -> ID da aula, o identificador de cada uma das aulas
+- tema -> Qual foi o assunto da aula
+- data prevista -> Data agendada para ingresso do docente.
+- concluída -> Binário, retornando se a aula teve ou não sua conclusão
+- data registro -> Quando foi registrada a aula
+
+---
+
+Exercício 2
+Explique a diferença entre NULL e NOT NULL.
+
+Resposta: NULL é a ausência de um valor. Uma coluna que foi criada, porém não foi inserido valores, por exemplo.
+Já NOT NULL é uma regra, onde aquela coluna não pode haver valores não inseridos. Há de ter algo ali.
+
+
+Exercício 3
+Por que a coluna aula foi definida como PRIMARY KEY?
+O que deve acontecer se tentarmos inserir duas linhas com aula = 1?
+
+Resposta: Pois a aula é um número inteiro, um facilitador na hora de buscar. Ela é nosso identificador sobre cada tema, registro, conclusão, etc.
+Se tentar inserir duas linhas com o mesmo ID dará erro, pois uma coluna definida como primary key não pode ter valores iguais.
+
+
+Exercício 4
+No INSERT abaixo, as colunas concluida e data_registro não foram informadas:
+
+INSERT INTO auditoria.controle_aulas
+(
+    aula,
+    tema,
+    data_prevista
+)
+VALUES
+(
+    1,
+    N'Introdução e ambiente SQL Server Express',
+    '2026-08-10'
+);
+
+De onde virão os valores dessas duas colunas?
+
+Resposta: Do DEFAULT delas na hora do CREATE TABLE
+
+
+Exercício 5
+Preveja o resultado lógico da consulta:
+
+SELECT
+    aula,
+    tema,
+    concluida,
+    data_registro
+FROM auditoria.controle_aulas
+WHERE aula = 1;
+
+Não é necessário prever o valor exato de data_registro.
+
+Resposta: aula 1; tema 'Introdução a SQL Server' (ou algo assim); concluída  0; data registro 2026-09-01 21:33:1234567
+
+Exercício 6
+Explique a diferença entre:
+
+SELECT * FROM auditoria.controle_aulas;
+
+e:
+
+SELECT aula, tema FROM auditoria.controle_aulas;
+
+Resposta: O primeiro select está pegando todas as colunas de auditoria.controle_aulas, já o segunda, só está puxando 2; aula e tema
+
+
+Exercício 7
+Classifique cada instrução conforme sua função principal:
+- CREATE TABLE
+- INSERT INTO
+- SELECT
+
+Use as categorias:
+- definir estrutura
+- inserir dados
+- consultar dados
+
+Resposta: CREATE TABLE = Definir estrutura, INSERT INTO = inserir dados, SELECT = consultar dados

@@ -1,0 +1,69 @@
+﻿CHECKPOINT 3 — AULA 3
+DML, inserções e validação de constraints
+
+
+1. Explique por que clientes e produtos precisam ser inseridos antes de pedidos e itens_pedido.
+
+Resposta: Por que a tabela itens pedido depende da tabela clientes e produtos para existir. Ela utiliza as chaves primárias de ambas.
+
+
+2. Qual é a diferença entre uma tabela existir e ela possuir linhas válidas para serem referenciadas por uma chave estrangeira?
+
+Resposta: não entendi a pergunta. Para uma tabela ser referenciada por uma chave estrangeira basta ter uma PK. Assim outra tabela consegue bater as linhas e resultados dela pelos seus identificadores
+
+
+3. No INSERT de pedidos, por que cliente_id é informado, mas pedido_id não?
+
+Resposta: pedido_id vai ser auto inserido por conta do IDENTITY, cliente_id é o identificador da linha de uma tabela estrangeira, então ele precisa ser passado
+
+
+4. No INSERT de itens_pedido, explique a correspondência posicional entre as colunas e os valores.
+
+Resposta: primeiro, pega-se o id do pedido, depois o id do produto solicitado, sua quantidade e o valor unitário desse pedido
+
+
+5. Preveja o resultado dos testes abaixo:
+a) pedido com cliente_id inexistente
+b) item com pedido_id inexistente
+c) item com produto_id inexistente
+d) item com quantidade = 0
+e) item com valor_unitario = -1
+f) dois itens com a mesma combinação pedido_id + produto_id
+
+Resposta: a-) Erro; b-) pedido_id será auto incrementado; c-) Erro; d-) Erro; e-) Erro; f-) Se pedido_id + o produto_id já apareceu antes na tabela, então erro
+
+
+6. Explique por que testar uma constraint dentro de BEGIN TRANSACTION e finalizar com ROLLBACK é útil no laboratório.
+
+Resposta: nem tivemos ROLLBACK ainda, ué
+
+
+7. Explique a diferença entre ROLLBACK e COMMIT.
+
+Resposta: sei lá kkkk, você não me ensinou isso
+
+
+8. Depuração: por que usar IDs fixos como cliente_id = 1 e produto_id = 1 pode falhar em um banco que já recebeu cargas anteriores?
+
+Resposta: ????
+
+
+9. Escreva uma consulta que conte quantas linhas existem em cada uma destas tabelas:
+- origem.clientes
+- origem.produtos
+- origem.pedidos
+- origem.itens_pedido
+
+Resposta: SELECT 'origem.clientes' AS tabela, COUNT(*) AS total_linhas FROM origem.clientes
+UNION ALL
+SELECT 'origem.produtos', COUNT(*) FROM origem.produtos
+UNION ALL
+SELECT 'origem.pedidos', COUNT(*) FROM origem.pedidos
+UNION ALL
+SELECT 'origem.itens_pedido', COUNT(*) FROM origem.itens_pedido;
+
+
+
+10. Explique o que significa dizer que uma operação DML respeitou a integridade referencial.
+
+Resposta: Em termos práticos, respeitar os dados existentes e válidos na tabela, não referenciar algo inválido como um id de um cliente que não existe numa FK de outra tabela.

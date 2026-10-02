@@ -1,0 +1,77 @@
+﻿CHECKPOINT 2 — AULA 3
+Pedidos, itens, chaves estrangeiras e chave composta
+
+
+1. Explique o relacionamento entre clientes e pedidos. Por que a chave estrangeira cliente_id fica em pedidos?
+
+Resposta: Pois pedidos é o 'N' da relação cardinal. Não tem problema criar-se na tabela vários pedidos diferentes com o mesmo cliente id de cliente, porém o oposto não funciona, pois na tabela, o PK não poderia se repetir, ficando fadado a cada cliente ter permissão para ter apenas 1 compra para o resto da vida.
+
+
+2. O que deve acontecer se alguém tentar inserir um pedido com cliente_id = 999, quando esse cliente não existe?
+
+Resposta: Erro, pois o SQL prevê integridade relacional.
+
+
+3. Explique por que itens_pedido é considerada uma tabela associativa entre pedidos e produtos.
+
+Resposta: É a forma de se lidar com relacionamentos N:N, a existência de itens pedido separa essa relação N:N para 1:N | tabela | N:1, assim temos uma organização e podemos acompanhar melhor casos de alta repetição e aparição nas tabelas (desculpa, cardinalidade ainda é uma parada muito confusa pra mim)
+
+
+4. Na chave primária composta abaixo, o que exatamente não pode se repetir?
+
+PRIMARY KEY (pedido_id, produto_id)
+
+Resposta: pedido_id & produto_id. Ambos juntos -> 1,1; 1,2; 2,1; 2,2 pode. 1,1; 1,1 não pode.
+
+
+5. A chave composta permite que o mesmo produto apareça em pedidos diferentes? Dê um exemplo.
+
+Resposta: Permite. Por exemplo, o produto 'Mouse' aparece no pedido 1 em 2 quantidades, porém no pedido 2 'Mouse' volta a aparecer, dessa vez em 1 quantidade. Mesmo produto, pedidos diferentes
+
+
+6. Por que quantidade usa CHECK (quantidade > 0), enquanto valor_unitario usa CHECK (valor_unitario >= 0)? Qual regra de negócio cada condição representa?
+
+Resposta: Não tem como se comprar 0 unidades de algo, é a mesma coisa que não comprar. Agora preço - ou valor unitário, pode ser 0, se algo foi dado de graça.
+
+
+7. Explique por que valor_unitario é armazenado no item do pedido mesmo existindo preco na tabela produtos.
+
+Resposta: preco é algo mutável. Esse mês uma coquinha gelada pode valer 8, mês que vem pode estar 15 (ainda mais no Brasil com essa linda economia). Valor unitário manterá o registro do quanto realmente foi cobrado naquele pedido em si, independente se hoje vale o dobro do que na data daquele pedido. 
+
+
+8. Coloque as quatro tabelas na ordem correta de criação e justifique a ordem:
+- origem.itens_pedido 4°
+- origem.produtos - 2°
+- origem.pedidos - 3°
+- origem.clientes - 1° 
+
+Resposta: Clientes entram num ecommerce e começam a adicionar produtos em seu carrinho de pedidos, dentro desse carrinho existem os produtos escolhidos, após isso é realizado o pedido com os itens alvos.
+
+A ordem importa pois, primeiro tem que haver o cliente para se interessar pelo produto, que vem logo em seguida. Após isso, precisamos ter o registro do pedido que o cliente deseja. Esse pedido pode conter diversos itens.
+
+A ordem é importante, pois a relação de tabelas exige que as tabelas existam anteriormente. Não há como a tabela 'itens_pedido' registrar pedidos, sendo que a tabela 'produtos' ainda não existe. Há um dependência que precisa ser respeitada
+
+
+9. Depuração: identifique todos os problemas conceituais do INSERT abaixo:
+
+INSERT INTO origem.itens_pedido
+(
+    pedido_id,
+    produto_id,
+    quantidade,
+    valor_unitario
+)
+VALUES
+(
+    999,
+    999,
+    0,
+    -10
+);
+
+Resposta: quantidade não pode ser 0, o conceito de comprar algo é somar algo em prol daquele que efetua a ação. E valor unitário não pode ser negativo, pois na lógica a loja estaria pagando esse alguém por comprar o produto. Não é uma estratégia inteligente para lojas, cujo intuito é lucrar
+
+
+10. Preveja quantas constraints principais serão criadas em origem.pedidos e origem.itens_pedido considerando PK, FK e CHECK.
+
+Resposta: 7? não entendi essa muito bem.
