@@ -1,0 +1,15 @@
+LABORATORIO DE ARQUIVOS PARA ETL
+
+Cada arquivo possui exatamente 100 registros de dados, sem contar cabecalhos/elementos raiz.
+
+1. clientes_100.csv
+   Tema: clientes. Delimitador: ponto e virgula. Codificacao: UTF-8 com BOM.
+2. pedidos_100.json
+   Tema: pedidos. Estrutura hierarquica com cliente e lista de itens.
+3. fornecedores_100.xml
+   Tema: fornecedores. Estrutura hierarquica com contato e endereco.
+4. estoque_100.xlsx
+   Tema: estoque. Planilha formatada com aba de dicionario de dados.
+
+IMPORTANTE
+Os arquivos incluem intencionalmente alguns problemas de qualidade, como nulos, duplicidades, datas invalidas, dominios inesperados, espacos extras e valores fora da regra. Eles servirao para praticar ingestao, staging, validacao, rejeicao, transformacao, logging e carga final.

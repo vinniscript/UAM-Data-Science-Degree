@@ -1,0 +1,1902 @@
+[
+  {
+    "pedido_id": 1001,
+    "cliente": {
+      "cliente_id": 8,
+      "nome": "Daniel Gomes"
+    },
+    "data_pedido": "2026-01-02",
+    "canal": "site",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 4,
+        "produto": "Mouse",
+        "quantidade": 2,
+        "preco_unitario": 48.71
+      }
+    ],
+    "valor_total": 97.42
+  },
+  {
+    "pedido_id": 1002,
+    "cliente": {
+      "cliente_id": 15,
+      "nome": "Elisa Lima"
+    },
+    "data_pedido": "2026-01-03",
+    "canal": "app",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 7,
+        "produto": "Dock Station",
+        "quantidade": 3,
+        "preco_unitario": 62.42
+      }
+    ],
+    "valor_total": 187.26
+  },
+  {
+    "pedido_id": 1003,
+    "cliente": {
+      "cliente_id": 22,
+      "nome": "Fabio Martins"
+    },
+    "data_pedido": "2026-01-04",
+    "canal": "marketplace",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 10,
+        "produto": "Roteador",
+        "quantidade": 4,
+        "preco_unitario": 76.13
+      }
+    ],
+    "valor_total": 304.52
+  },
+  {
+    "pedido_id": 1004,
+    "cliente": {
+      "cliente_id": 29,
+      "nome": "Gabriela Nascimento"
+    },
+    "data_pedido": "2026-01-05",
+    "canal": "loja",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 3,
+        "produto": "Teclado",
+        "quantidade": 1,
+        "preco_unitario": 89.84
+      }
+    ],
+    "valor_total": 89.84
+  },
+  {
+    "pedido_id": 1005,
+    "cliente": {
+      "cliente_id": 36,
+      "nome": "Henrique Oliveira"
+    },
+    "data_pedido": "2026-01-06",
+    "canal": "site",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 6,
+        "produto": "Webcam",
+        "quantidade": 2,
+        "preco_unitario": 103.55
+      }
+    ],
+    "valor_total": 207.1
+  },
+  {
+    "pedido_id": 1006,
+    "cliente": {
+      "cliente_id": 43,
+      "nome": "Isabela Pereira"
+    },
+    "data_pedido": "2026-01-07",
+    "canal": "app",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 9,
+        "produto": "Memoria RAM",
+        "quantidade": 3,
+        "preco_unitario": 117.26
+      }
+    ],
+    "valor_total": 351.78
+  },
+  {
+    "pedido_id": 1007,
+    "cliente": {
+      "cliente_id": 50,
+      "nome": "Joao Rocha"
+    },
+    "data_pedido": "2026-01-08",
+    "canal": "marketplace",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 2,
+        "produto": "Monitor",
+        "quantidade": 4,
+        "preco_unitario": 130.97
+      }
+    ],
+    "valor_total": 523.88
+  },
+  {
+    "pedido_id": 1008,
+    "cliente": {
+      "cliente_id": 57,
+      "nome": "Karina Santos"
+    },
+    "data_pedido": "2026-01-09",
+    "canal": "loja",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 5,
+        "produto": "Headset",
+        "quantidade": 1,
+        "preco_unitario": 144.68
+      }
+    ],
+    "valor_total": 144.68
+  },
+  {
+    "pedido_id": 1009,
+    "cliente": {
+      "cliente_id": 64,
+      "nome": "Lucas Silva"
+    },
+    "data_pedido": "2026-01-10",
+    "canal": "site",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 8,
+        "produto": "SSD",
+        "quantidade": 2,
+        "preco_unitario": 158.39
+      }
+    ],
+    "valor_total": 316.78
+  },
+  {
+    "pedido_id": 1010,
+    "cliente": {
+      "cliente_id": 71,
+      "nome": "Mariana Almeida"
+    },
+    "data_pedido": "2026-01-11",
+    "canal": "app",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 1,
+        "produto": "Notebook",
+        "quantidade": 3,
+        "preco_unitario": 172.1
+      }
+    ],
+    "valor_total": 516.3
+  },
+  {
+    "pedido_id": 1011,
+    "cliente": {
+      "cliente_id": 78,
+      "nome": "Natan Barbosa"
+    },
+    "data_pedido": "2026-01-12",
+    "canal": "marketplace",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 4,
+        "produto": "Mouse",
+        "quantidade": 4,
+        "preco_unitario": 185.81
+      }
+    ],
+    "valor_total": 743.24
+  },
+  {
+    "pedido_id": 1012,
+    "cliente": {
+      "cliente_id": 85,
+      "nome": "Olivia Castro"
+    },
+    "data_pedido": "2026-01-13",
+    "canal": "loja",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 7,
+        "produto": "Dock Station",
+        "quantidade": 1,
+        "preco_unitario": 199.52
+      }
+    ],
+    "valor_total": 199.52
+  },
+  {
+    "pedido_id": 1013,
+    "cliente": {
+      "cliente_id": 92,
+      "nome": "Paulo Diniz"
+    },
+    "data_pedido": "2026-01-14",
+    "canal": "site",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 10,
+        "produto": "Roteador",
+        "quantidade": 2,
+        "preco_unitario": 213.23
+      }
+    ],
+    "valor_total": 426.46
+  },
+  {
+    "pedido_id": 1014,
+    "cliente": {
+      "cliente_id": 99,
+      "nome": "Quezia Esteves"
+    },
+    "data_pedido": "2026-01-15",
+    "canal": "app",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 3,
+        "produto": "Teclado",
+        "quantidade": 3,
+        "preco_unitario": 226.94
+      }
+    ],
+    "valor_total": 680.82
+  },
+  {
+    "pedido_id": 1015,
+    "cliente": {
+      "cliente_id": 6,
+      "nome": "Rafael Freitas"
+    },
+    "data_pedido": "2026-01-16",
+    "canal": "marketplace",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 6,
+        "produto": "Webcam",
+        "quantidade": 4,
+        "preco_unitario": 240.65
+      }
+    ],
+    "valor_total": 962.6
+  },
+  {
+    "pedido_id": 1016,
+    "cliente": {
+      "cliente_id": 13,
+      "nome": "Sabrina Gomes"
+    },
+    "data_pedido": "2026-01-17",
+    "canal": "loja",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 9,
+        "produto": "Memoria RAM",
+        "quantidade": 1,
+        "preco_unitario": 254.36
+      }
+    ],
+    "valor_total": 254.36
+  },
+  {
+    "pedido_id": 1017,
+    "cliente": {
+      "cliente_id": 20,
+      "nome": "Tiago Lima"
+    },
+    "data_pedido": "2026-01-18",
+    "canal": "site",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 2,
+        "produto": "Monitor",
+        "quantidade": 2,
+        "preco_unitario": 268.07
+      }
+    ],
+    "valor_total": 536.14
+  },
+  {
+    "pedido_id": 1018,
+    "cliente": {
+      "cliente_id": 27,
+      "nome": "Ana Martins"
+    },
+    "data_pedido": "2026-13-10",
+    "canal": "app",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 5,
+        "produto": "Headset",
+        "quantidade": 3,
+        "preco_unitario": 281.78
+      }
+    ],
+    "valor_total": 845.34
+  },
+  {
+    "pedido_id": 1019,
+    "cliente": {
+      "cliente_id": 34,
+      "nome": "Bruno Nascimento"
+    },
+    "data_pedido": "2026-01-20",
+    "canal": "marketplace",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 8,
+        "produto": "SSD",
+        "quantidade": 4,
+        "preco_unitario": 295.49
+      }
+    ],
+    "valor_total": 1181.96
+  },
+  {
+    "pedido_id": 1020,
+    "cliente": {
+      "cliente_id": 41,
+      "nome": "Carla Oliveira"
+    },
+    "data_pedido": "2026-01-21",
+    "canal": "loja",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 1,
+        "produto": "Notebook",
+        "quantidade": 1,
+        "preco_unitario": 309.2
+      }
+    ],
+    "valor_total": 309.2
+  },
+  {
+    "pedido_id": 1021,
+    "cliente": {
+      "cliente_id": 48,
+      "nome": "Daniel Pereira"
+    },
+    "data_pedido": "2026-01-22",
+    "canal": "site",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 4,
+        "produto": "Mouse",
+        "quantidade": 2,
+        "preco_unitario": 322.91
+      }
+    ],
+    "valor_total": 645.82
+  },
+  {
+    "pedido_id": 1022,
+    "cliente": {
+      "cliente_id": 55,
+      "nome": "Elisa Rocha"
+    },
+    "data_pedido": "2026-01-23",
+    "canal": "app",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 7,
+        "produto": "Dock Station",
+        "quantidade": 3,
+        "preco_unitario": 336.62
+      }
+    ],
+    "valor_total": 1009.86
+  },
+  {
+    "pedido_id": 1023,
+    "cliente": {
+      "cliente_id": 62,
+      "nome": "Fabio Santos"
+    },
+    "data_pedido": "2026-01-24",
+    "canal": "marketplace",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 10,
+        "produto": "Roteador",
+        "quantidade": 4,
+        "preco_unitario": 350.33
+      }
+    ],
+    "valor_total": 1401.32
+  },
+  {
+    "pedido_id": 1024,
+    "cliente": {
+      "cliente_id": 69,
+      "nome": "Gabriela Silva"
+    },
+    "data_pedido": "2026-01-25",
+    "canal": "loja",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 3,
+        "produto": "Teclado",
+        "quantidade": 1,
+        "preco_unitario": 364.04
+      }
+    ],
+    "valor_total": 364.04
+  },
+  {
+    "pedido_id": 1025,
+    "cliente": {
+      "cliente_id": 76,
+      "nome": "Henrique Almeida"
+    },
+    "data_pedido": "2026-01-26",
+    "canal": "site",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 6,
+        "produto": "Webcam",
+        "quantidade": 2,
+        "preco_unitario": 377.75
+      }
+    ],
+    "valor_total": 755.5
+  },
+  {
+    "pedido_id": 1026,
+    "cliente": {
+      "cliente_id": 83,
+      "nome": "Isabela Barbosa"
+    },
+    "data_pedido": "2026-01-27",
+    "canal": "app",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 9,
+        "produto": "Memoria RAM",
+        "quantidade": 3,
+        "preco_unitario": 391.46
+      }
+    ],
+    "valor_total": 1174.38
+  },
+  {
+    "pedido_id": 1027,
+    "cliente": {
+      "cliente_id": 90,
+      "nome": "Joao Castro"
+    },
+    "data_pedido": "2026-01-28",
+    "canal": "marketplace",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 2,
+        "produto": "Monitor",
+        "quantidade": 4,
+        "preco_unitario": 405.17
+      }
+    ],
+    "valor_total": 1620.68
+  },
+  {
+    "pedido_id": 1028,
+    "cliente": {
+      "cliente_id": 97,
+      "nome": "Karina Diniz"
+    },
+    "data_pedido": "2026-01-29",
+    "canal": "loja",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 5,
+        "produto": "Headset",
+        "quantidade": 1,
+        "preco_unitario": 418.88
+      }
+    ],
+    "valor_total": 418.88
+  },
+  {
+    "pedido_id": 1029,
+    "cliente": {
+      "cliente_id": 4,
+      "nome": "Lucas Esteves"
+    },
+    "data_pedido": "2026-01-30",
+    "canal": "site",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 8,
+        "produto": "SSD",
+        "quantidade": 2,
+        "preco_unitario": 432.59
+      }
+    ],
+    "valor_total": 865.18
+  },
+  {
+    "pedido_id": 1030,
+    "cliente": {
+      "cliente_id": 11,
+      "nome": "Mariana Freitas"
+    },
+    "data_pedido": "2026-01-31",
+    "canal": "app",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 1,
+        "produto": "Notebook",
+        "quantidade": 3,
+        "preco_unitario": 446.3
+      }
+    ],
+    "valor_total": 1338.9
+  },
+  {
+    "pedido_id": 1031,
+    "cliente": {
+      "cliente_id": 18,
+      "nome": "Natan Gomes"
+    },
+    "data_pedido": "2026-02-01",
+    "canal": "marketplace",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 4,
+        "produto": "Mouse",
+        "quantidade": 4,
+        "preco_unitario": 460.01
+      }
+    ],
+    "valor_total": 1840.04
+  },
+  {
+    "pedido_id": 1032,
+    "cliente": {
+      "cliente_id": 25,
+      "nome": "Olivia Lima"
+    },
+    "data_pedido": "2026-02-02",
+    "canal": "loja",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 7,
+        "produto": "Dock Station",
+        "quantidade": 1,
+        "preco_unitario": 473.72
+      }
+    ],
+    "valor_total": 473.72
+  },
+  {
+    "pedido_id": 1033,
+    "cliente": {
+      "cliente_id": 32,
+      "nome": "Paulo Martins"
+    },
+    "data_pedido": "2026-02-03",
+    "canal": "site",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 10,
+        "produto": "Roteador",
+        "quantidade": 0,
+        "preco_unitario": 487.43
+      }
+    ],
+    "valor_total": 974.86
+  },
+  {
+    "pedido_id": 1034,
+    "cliente": {
+      "cliente_id": 39,
+      "nome": "Quezia Nascimento"
+    },
+    "data_pedido": "2026-02-04",
+    "canal": "app",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 3,
+        "produto": "Teclado",
+        "quantidade": 3,
+        "preco_unitario": 501.14
+      }
+    ],
+    "valor_total": 1503.42
+  },
+  {
+    "pedido_id": 1035,
+    "cliente": {
+      "cliente_id": 46,
+      "nome": "Rafael Oliveira"
+    },
+    "data_pedido": "2026-02-05",
+    "canal": "marketplace",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 6,
+        "produto": "Webcam",
+        "quantidade": 4,
+        "preco_unitario": 514.85
+      }
+    ],
+    "valor_total": 2059.4
+  },
+  {
+    "pedido_id": 1036,
+    "cliente": {
+      "cliente_id": 53,
+      "nome": "Sabrina Pereira"
+    },
+    "data_pedido": "2026-02-06",
+    "canal": "loja",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 9,
+        "produto": "Memoria RAM",
+        "quantidade": 1,
+        "preco_unitario": 528.56
+      }
+    ],
+    "valor_total": 528.56
+  },
+  {
+    "pedido_id": 1037,
+    "cliente": {
+      "cliente_id": 60,
+      "nome": "Tiago Rocha"
+    },
+    "data_pedido": "2026-02-07",
+    "canal": "site",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 2,
+        "produto": "Monitor",
+        "quantidade": 2,
+        "preco_unitario": 542.27
+      }
+    ],
+    "valor_total": 1084.54
+  },
+  {
+    "pedido_id": 1038,
+    "cliente": {
+      "cliente_id": 67,
+      "nome": "Ana Santos"
+    },
+    "data_pedido": "2026-02-08",
+    "canal": "app",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 5,
+        "produto": "Headset",
+        "quantidade": 3,
+        "preco_unitario": 555.98
+      }
+    ],
+    "valor_total": 1667.94
+  },
+  {
+    "pedido_id": 1039,
+    "cliente": {
+      "cliente_id": 74,
+      "nome": "Bruno Silva"
+    },
+    "data_pedido": "2026-02-09",
+    "canal": "marketplace",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 8,
+        "produto": "SSD",
+        "quantidade": 4,
+        "preco_unitario": 569.69
+      }
+    ],
+    "valor_total": 2278.76
+  },
+  {
+    "pedido_id": 1040,
+    "cliente": {
+      "cliente_id": 81,
+      "nome": "Carla Almeida"
+    },
+    "data_pedido": "2026-02-10",
+    "canal": "loja",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 1,
+        "produto": "Notebook",
+        "quantidade": 1,
+        "preco_unitario": 583.4
+      }
+    ],
+    "valor_total": 583.4
+  },
+  {
+    "pedido_id": 1041,
+    "cliente": {
+      "cliente_id": 88,
+      "nome": "Daniel Barbosa"
+    },
+    "data_pedido": "2026-02-11",
+    "canal": "site",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 4,
+        "produto": "Mouse",
+        "quantidade": 2,
+        "preco_unitario": 597.11
+      }
+    ],
+    "valor_total": 1194.22
+  },
+  {
+    "pedido_id": 1042,
+    "cliente": {
+      "cliente_id": 95,
+      "nome": "Elisa Castro"
+    },
+    "data_pedido": "2026-02-12",
+    "canal": "app",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 7,
+        "produto": "Dock Station",
+        "quantidade": 3,
+        "preco_unitario": 610.82
+      }
+    ],
+    "valor_total": 1832.46
+  },
+  {
+    "pedido_id": 1043,
+    "cliente": {
+      "cliente_id": 2,
+      "nome": "Fabio Diniz"
+    },
+    "data_pedido": "2026-02-13",
+    "canal": "marketplace",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 10,
+        "produto": "Roteador",
+        "quantidade": 4,
+        "preco_unitario": 624.53
+      }
+    ],
+    "valor_total": 2498.12
+  },
+  {
+    "pedido_id": 1044,
+    "cliente": {
+      "cliente_id": 9,
+      "nome": "Gabriela Esteves"
+    },
+    "data_pedido": "2026-02-14",
+    "canal": "loja",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 3,
+        "produto": "Teclado",
+        "quantidade": 1,
+        "preco_unitario": 638.24
+      }
+    ],
+    "valor_total": 638.24
+  },
+  {
+    "pedido_id": 1045,
+    "cliente": {
+      "cliente_id": 16,
+      "nome": "Henrique Freitas"
+    },
+    "data_pedido": "2026-02-15",
+    "canal": "site",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 6,
+        "produto": "Webcam",
+        "quantidade": 2,
+        "preco_unitario": 651.95
+      }
+    ],
+    "valor_total": 1303.9
+  },
+  {
+    "pedido_id": 1046,
+    "cliente": {
+      "cliente_id": 23,
+      "nome": "Isabela Gomes"
+    },
+    "data_pedido": "2026-02-16",
+    "canal": "app",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 9,
+        "produto": "Memoria RAM",
+        "quantidade": 3,
+        "preco_unitario": 665.66
+      }
+    ],
+    "valor_total": 1996.98
+  },
+  {
+    "pedido_id": 1047,
+    "cliente": {
+      "cliente_id": 30,
+      "nome": "Joao Lima"
+    },
+    "data_pedido": "2026-02-17",
+    "canal": "marketplace",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 2,
+        "produto": "Monitor",
+        "quantidade": 4,
+        "preco_unitario": 679.37
+      }
+    ],
+    "valor_total": -99.9
+  },
+  {
+    "pedido_id": 1048,
+    "cliente": {
+      "cliente_id": 37,
+      "nome": "Karina Martins"
+    },
+    "data_pedido": "2026-02-18",
+    "canal": "loja",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 5,
+        "produto": "Headset",
+        "quantidade": 1,
+        "preco_unitario": 693.08
+      }
+    ],
+    "valor_total": 693.08
+  },
+  {
+    "pedido_id": 1049,
+    "cliente": {
+      "cliente_id": 44,
+      "nome": "Lucas Nascimento"
+    },
+    "data_pedido": "2026-02-19",
+    "canal": "site",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 8,
+        "produto": "SSD",
+        "quantidade": 2,
+        "preco_unitario": 706.79
+      }
+    ],
+    "valor_total": 1413.58
+  },
+  {
+    "pedido_id": 1050,
+    "cliente": {
+      "cliente_id": 51,
+      "nome": "Mariana Oliveira"
+    },
+    "data_pedido": "2026-02-20",
+    "canal": "app",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 1,
+        "produto": "Notebook",
+        "quantidade": 3,
+        "preco_unitario": 720.5
+      }
+    ],
+    "valor_total": 2161.5
+  },
+  {
+    "pedido_id": 1051,
+    "cliente": {
+      "cliente_id": 58,
+      "nome": "Natan Pereira"
+    },
+    "data_pedido": "2026-02-21",
+    "canal": "marketplace",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 4,
+        "produto": "Mouse",
+        "quantidade": 4,
+        "preco_unitario": 734.21
+      }
+    ],
+    "valor_total": 2936.84
+  },
+  {
+    "pedido_id": 1052,
+    "cliente": {
+      "cliente_id": 65,
+      "nome": "Olivia Rocha"
+    },
+    "data_pedido": "2026-02-22",
+    "canal": "loja",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 7,
+        "produto": "Dock Station",
+        "quantidade": 1,
+        "preco_unitario": 747.92
+      }
+    ],
+    "valor_total": 747.92
+  },
+  {
+    "pedido_id": 1053,
+    "cliente": {
+      "cliente_id": 72,
+      "nome": "Paulo Santos"
+    },
+    "data_pedido": "2026-02-23",
+    "canal": "site",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 10,
+        "produto": "Roteador",
+        "quantidade": 2,
+        "preco_unitario": 761.63
+      }
+    ],
+    "valor_total": 1523.26
+  },
+  {
+    "pedido_id": 1054,
+    "cliente": {
+      "cliente_id": 79,
+      "nome": "Quezia Silva"
+    },
+    "data_pedido": "2026-02-24",
+    "canal": "app",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 3,
+        "produto": "Teclado",
+        "quantidade": 3,
+        "preco_unitario": 775.34
+      }
+    ],
+    "valor_total": 2326.02
+  },
+  {
+    "pedido_id": 1055,
+    "cliente": {
+      "cliente_id": 86,
+      "nome": "Rafael Almeida"
+    },
+    "data_pedido": "2026-02-25",
+    "canal": "marketplace",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 6,
+        "produto": "Webcam",
+        "quantidade": 4,
+        "preco_unitario": 789.05
+      }
+    ],
+    "valor_total": 3156.2
+  },
+  {
+    "pedido_id": 1056,
+    "cliente": {
+      "cliente_id": 93,
+      "nome": "Sabrina Barbosa"
+    },
+    "data_pedido": "2026-02-26",
+    "canal": "loja",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 9,
+        "produto": "Memoria RAM",
+        "quantidade": 1,
+        "preco_unitario": 802.76
+      }
+    ],
+    "valor_total": 802.76
+  },
+  {
+    "pedido_id": 1057,
+    "cliente": {
+      "cliente_id": 100,
+      "nome": "Tiago Castro"
+    },
+    "data_pedido": "2026-02-27",
+    "canal": "site",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 2,
+        "produto": "Monitor",
+        "quantidade": 2,
+        "preco_unitario": 816.47
+      }
+    ],
+    "valor_total": 1632.94
+  },
+  {
+    "pedido_id": 1058,
+    "cliente": {
+      "cliente_id": 7,
+      "nome": "Ana Diniz"
+    },
+    "data_pedido": "2026-02-28",
+    "canal": "app",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 5,
+        "produto": "Headset",
+        "quantidade": 3,
+        "preco_unitario": 830.18
+      }
+    ],
+    "valor_total": 2490.54
+  },
+  {
+    "pedido_id": 1059,
+    "cliente": {
+      "cliente_id": 14,
+      "nome": "Bruno Esteves"
+    },
+    "data_pedido": "2026-03-01",
+    "canal": "marketplace",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 8,
+        "produto": "SSD",
+        "quantidade": 4,
+        "preco_unitario": 843.89
+      }
+    ],
+    "valor_total": 3375.56
+  },
+  {
+    "pedido_id": 1060,
+    "cliente": {
+      "cliente_id": 21,
+      "nome": "Carla Freitas"
+    },
+    "data_pedido": "2026-03-02",
+    "canal": "loja",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 1,
+        "produto": "Notebook",
+        "quantidade": 1,
+        "preco_unitario": 857.6
+      }
+    ],
+    "valor_total": 857.6
+  },
+  {
+    "pedido_id": 1061,
+    "cliente": {
+      "cliente_id": 28,
+      "nome": "Daniel Gomes"
+    },
+    "data_pedido": "2026-03-03",
+    "canal": "site",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 4,
+        "produto": "Mouse",
+        "quantidade": 2,
+        "preco_unitario": 871.31
+      }
+    ],
+    "valor_total": 1742.62
+  },
+  {
+    "pedido_id": 1062,
+    "cliente": {
+      "cliente_id": 35,
+      "nome": "Elisa Lima"
+    },
+    "data_pedido": "2026-03-04",
+    "canal": "app",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 7,
+        "produto": "Dock Station",
+        "quantidade": 3,
+        "preco_unitario": 885.02
+      }
+    ],
+    "valor_total": 2655.06
+  },
+  {
+    "pedido_id": 1063,
+    "cliente": {
+      "cliente_id": 42,
+      "nome": "Fabio Martins"
+    },
+    "data_pedido": "2026-03-05",
+    "canal": "marketplace",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 10,
+        "produto": "Roteador",
+        "quantidade": 4,
+        "preco_unitario": 898.73
+      }
+    ],
+    "valor_total": 3594.92
+  },
+  {
+    "pedido_id": 1064,
+    "cliente": {
+      "cliente_id": 49,
+      "nome": "Gabriela Nascimento"
+    },
+    "data_pedido": "2026-03-06",
+    "canal": "fax",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 3,
+        "produto": "Teclado",
+        "quantidade": 1,
+        "preco_unitario": 912.44
+      }
+    ],
+    "valor_total": 912.44
+  },
+  {
+    "pedido_id": 1065,
+    "cliente": {
+      "cliente_id": 56,
+      "nome": "Henrique Oliveira"
+    },
+    "data_pedido": "2026-03-07",
+    "canal": "site",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 6,
+        "produto": "Webcam",
+        "quantidade": 2,
+        "preco_unitario": 926.15
+      }
+    ],
+    "valor_total": 1852.3
+  },
+  {
+    "pedido_id": 1066,
+    "cliente": {
+      "cliente_id": 63,
+      "nome": "Isabela Pereira"
+    },
+    "data_pedido": "2026-03-08",
+    "canal": "app",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 9,
+        "produto": "Memoria RAM",
+        "quantidade": 3,
+        "preco_unitario": 939.86
+      }
+    ],
+    "valor_total": 2819.58
+  },
+  {
+    "pedido_id": 1067,
+    "cliente": {
+      "cliente_id": 70,
+      "nome": "Joao Rocha"
+    },
+    "data_pedido": "2026-03-09",
+    "canal": "marketplace",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 2,
+        "produto": "Monitor",
+        "quantidade": 4,
+        "preco_unitario": 953.57
+      }
+    ],
+    "valor_total": 3814.28
+  },
+  {
+    "pedido_id": 1068,
+    "cliente": {
+      "cliente_id": 77,
+      "nome": "Karina Santos"
+    },
+    "data_pedido": "2026-03-10",
+    "canal": "loja",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 5,
+        "produto": "Headset",
+        "quantidade": 1,
+        "preco_unitario": 967.28
+      }
+    ],
+    "valor_total": 967.28
+  },
+  {
+    "pedido_id": 1069,
+    "cliente": {
+      "cliente_id": 84,
+      "nome": "Lucas Silva"
+    },
+    "data_pedido": "2026-03-11",
+    "canal": "site",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 8,
+        "produto": "SSD",
+        "quantidade": 2,
+        "preco_unitario": 980.99
+      }
+    ],
+    "valor_total": 1961.98
+  },
+  {
+    "pedido_id": 1070,
+    "cliente": {
+      "cliente_id": 91,
+      "nome": "Mariana Almeida"
+    },
+    "data_pedido": "2026-03-12",
+    "canal": "app",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 1,
+        "produto": "Notebook",
+        "quantidade": 3,
+        "preco_unitario": 994.7
+      }
+    ],
+    "valor_total": 2984.1
+  },
+  {
+    "pedido_id": 1071,
+    "cliente": {
+      "cliente_id": 98,
+      "nome": "Natan Barbosa"
+    },
+    "data_pedido": "2026-03-13",
+    "canal": "marketplace",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 4,
+        "produto": "Mouse",
+        "quantidade": 4,
+        "preco_unitario": 1008.41
+      }
+    ],
+    "valor_total": 4033.64
+  },
+  {
+    "pedido_id": 1072,
+    "cliente": {
+      "cliente_id": 5,
+      "nome": "Olivia Castro"
+    },
+    "data_pedido": "2026-03-14",
+    "canal": "loja",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 7,
+        "produto": "Dock Station",
+        "quantidade": 1,
+        "preco_unitario": 1022.12
+      }
+    ],
+    "valor_total": 1022.12
+  },
+  {
+    "pedido_id": 1073,
+    "cliente": {
+      "cliente_id": 12,
+      "nome": "Paulo Diniz"
+    },
+    "data_pedido": "2026-03-15",
+    "canal": "site",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 10,
+        "produto": "Roteador",
+        "quantidade": 2,
+        "preco_unitario": 1035.83
+      }
+    ],
+    "valor_total": 2071.66
+  },
+  {
+    "pedido_id": 1074,
+    "cliente": {
+      "cliente_id": 19,
+      "nome": "Quezia Esteves"
+    },
+    "data_pedido": "2026-03-16",
+    "canal": "app",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 3,
+        "produto": "Teclado",
+        "quantidade": 3,
+        "preco_unitario": 1049.54
+      }
+    ],
+    "valor_total": 3148.62
+  },
+  {
+    "pedido_id": 1075,
+    "cliente": {
+      "cliente_id": 26,
+      "nome": "Rafael Freitas"
+    },
+    "data_pedido": "2026-03-17",
+    "canal": "marketplace",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 6,
+        "produto": "Webcam",
+        "quantidade": 4,
+        "preco_unitario": 1063.25
+      }
+    ],
+    "valor_total": 4253.0
+  },
+  {
+    "pedido_id": 1076,
+    "cliente": {
+      "cliente_id": 33,
+      "nome": "Sabrina Gomes"
+    },
+    "data_pedido": "2026-03-18",
+    "canal": "loja",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 9,
+        "produto": "Memoria RAM",
+        "quantidade": 1,
+        "preco_unitario": 1076.96
+      }
+    ],
+    "valor_total": 1076.96
+  },
+  {
+    "pedido_id": 1077,
+    "cliente": {
+      "cliente_id": 40,
+      "nome": "Tiago Lima"
+    },
+    "data_pedido": "2026-03-19",
+    "canal": "site",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 2,
+        "produto": "Monitor",
+        "quantidade": 2,
+        "preco_unitario": 1090.67
+      }
+    ],
+    "valor_total": 2181.34
+  },
+  {
+    "pedido_id": 1078,
+    "cliente": {
+      "cliente_id": 47,
+      "nome": "Ana Martins"
+    },
+    "data_pedido": "2026-03-20",
+    "canal": "app",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 5,
+        "produto": "Headset",
+        "quantidade": 3,
+        "preco_unitario": 1104.38
+      }
+    ],
+    "valor_total": 3313.14
+  },
+  {
+    "pedido_id": 1079,
+    "cliente": {
+      "cliente_id": 54,
+      "nome": "Bruno Nascimento"
+    },
+    "data_pedido": "2026-03-21",
+    "canal": "marketplace",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 8,
+        "produto": "SSD",
+        "quantidade": 4,
+        "preco_unitario": 1118.09
+      }
+    ],
+    "valor_total": 4472.36
+  },
+  {
+    "pedido_id": 1080,
+    "cliente": {
+      "cliente_id": 61,
+      "nome": "Carla Oliveira"
+    },
+    "data_pedido": "2026-03-22",
+    "canal": "loja",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 1,
+        "produto": "Notebook",
+        "quantidade": 1,
+        "preco_unitario": 1131.8
+      }
+    ],
+    "valor_total": 1131.8
+  },
+  {
+    "pedido_id": 1081,
+    "cliente": {
+      "cliente_id": null,
+      "nome": "Daniel Pereira"
+    },
+    "data_pedido": "2026-03-23",
+    "canal": "site",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 4,
+        "produto": "Mouse",
+        "quantidade": 2,
+        "preco_unitario": 1145.51
+      }
+    ],
+    "valor_total": 2291.02
+  },
+  {
+    "pedido_id": 1082,
+    "cliente": {
+      "cliente_id": 75,
+      "nome": "Elisa Rocha"
+    },
+    "data_pedido": "2026-03-24",
+    "canal": "app",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 7,
+        "produto": "Dock Station",
+        "quantidade": 3,
+        "preco_unitario": 1159.22
+      }
+    ],
+    "valor_total": 3477.66
+  },
+  {
+    "pedido_id": 1083,
+    "cliente": {
+      "cliente_id": 82,
+      "nome": "Fabio Santos"
+    },
+    "data_pedido": "2026-03-25",
+    "canal": "marketplace",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 10,
+        "produto": "Roteador",
+        "quantidade": 4,
+        "preco_unitario": 1172.93
+      }
+    ],
+    "valor_total": 4691.72
+  },
+  {
+    "pedido_id": 1084,
+    "cliente": {
+      "cliente_id": 89,
+      "nome": "Gabriela Silva"
+    },
+    "data_pedido": "2026-03-26",
+    "canal": "loja",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 3,
+        "produto": "Teclado",
+        "quantidade": 1,
+        "preco_unitario": 1186.64
+      }
+    ],
+    "valor_total": 1186.64
+  },
+  {
+    "pedido_id": 1085,
+    "cliente": {
+      "cliente_id": 96,
+      "nome": "Henrique Almeida"
+    },
+    "data_pedido": "2026-03-27",
+    "canal": "site",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 6,
+        "produto": "Webcam",
+        "quantidade": 2,
+        "preco_unitario": 1200.35
+      }
+    ],
+    "valor_total": 2400.7
+  },
+  {
+    "pedido_id": 1086,
+    "cliente": {
+      "cliente_id": 3,
+      "nome": "Isabela Barbosa"
+    },
+    "data_pedido": "2026-03-28",
+    "canal": "app",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 9,
+        "produto": "Memoria RAM",
+        "quantidade": 3,
+        "preco_unitario": 1214.06
+      }
+    ],
+    "valor_total": 3642.18
+  },
+  {
+    "pedido_id": 1087,
+    "cliente": {
+      "cliente_id": 10,
+      "nome": "Joao Castro"
+    },
+    "data_pedido": "2026-03-29",
+    "canal": "marketplace",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 2,
+        "produto": "Monitor",
+        "quantidade": 4,
+        "preco_unitario": 1227.77
+      }
+    ],
+    "valor_total": 4911.08
+  },
+  {
+    "pedido_id": 1088,
+    "cliente": {
+      "cliente_id": 17,
+      "nome": "Karina Diniz"
+    },
+    "data_pedido": "2026-03-30",
+    "canal": "loja",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 5,
+        "produto": "Headset",
+        "quantidade": 1,
+        "preco_unitario": 1241.48
+      }
+    ],
+    "valor_total": 1241.48
+  },
+  {
+    "pedido_id": 1089,
+    "cliente": {
+      "cliente_id": 24,
+      "nome": "Lucas Esteves"
+    },
+    "data_pedido": "2026-03-31",
+    "canal": "site",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 8,
+        "produto": "SSD",
+        "quantidade": 2,
+        "preco_unitario": 1255.19
+      }
+    ],
+    "valor_total": 2510.38
+  },
+  {
+    "pedido_id": 1090,
+    "cliente": {
+      "cliente_id": 31,
+      "nome": "Mariana Freitas"
+    },
+    "data_pedido": "2026-04-01",
+    "canal": "app",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 1,
+        "produto": "Notebook",
+        "quantidade": 3,
+        "preco_unitario": 1268.9
+      }
+    ],
+    "valor_total": 3806.7
+  },
+  {
+    "pedido_id": 1091,
+    "cliente": {
+      "cliente_id": 38,
+      "nome": "Natan Gomes"
+    },
+    "data_pedido": "2026-04-02",
+    "canal": "marketplace",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 4,
+        "produto": "Mouse",
+        "quantidade": 4,
+        "preco_unitario": 1282.61
+      }
+    ],
+    "valor_total": 5130.44
+  },
+  {
+    "pedido_id": 1092,
+    "cliente": {
+      "cliente_id": 45,
+      "nome": "Olivia Lima"
+    },
+    "data_pedido": "2026-04-03",
+    "canal": "loja",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 7,
+        "produto": "Dock Station",
+        "quantidade": 1,
+        "preco_unitario": 1296.32
+      }
+    ],
+    "valor_total": 1296.32
+  },
+  {
+    "pedido_id": 1093,
+    "cliente": {
+      "cliente_id": 52,
+      "nome": "Paulo Martins"
+    },
+    "data_pedido": "2026-04-04",
+    "canal": "site",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 10,
+        "produto": "Roteador",
+        "quantidade": 2,
+        "preco_unitario": 1310.03
+      }
+    ],
+    "valor_total": 2620.06
+  },
+  {
+    "pedido_id": 1094,
+    "cliente": {
+      "cliente_id": 59,
+      "nome": "Quezia Nascimento"
+    },
+    "data_pedido": "2026-04-05",
+    "canal": "app",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 3,
+        "produto": "Teclado",
+        "quantidade": 3,
+        "preco_unitario": 1323.74
+      }
+    ],
+    "valor_total": 3971.22
+  },
+  {
+    "pedido_id": 1095,
+    "cliente": {
+      "cliente_id": 66,
+      "nome": "Rafael Oliveira"
+    },
+    "data_pedido": "2026-04-06",
+    "canal": "marketplace",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 6,
+        "produto": "Webcam",
+        "quantidade": 4,
+        "preco_unitario": 1337.45
+      }
+    ],
+    "valor_total": 5349.8
+  },
+  {
+    "pedido_id": 1096,
+    "cliente": {
+      "cliente_id": 73,
+      "nome": "Sabrina Pereira"
+    },
+    "data_pedido": "2026-04-07",
+    "canal": "loja",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 9,
+        "produto": "Memoria RAM",
+        "quantidade": 1,
+        "preco_unitario": 1351.16
+      }
+    ],
+    "valor_total": 1351.16
+  },
+  {
+    "pedido_id": 1097,
+    "cliente": {
+      "cliente_id": 80,
+      "nome": "Tiago Rocha"
+    },
+    "data_pedido": "2026-04-08",
+    "canal": "site",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 2,
+        "produto": "Monitor",
+        "quantidade": 2,
+        "preco_unitario": 1364.87
+      }
+    ],
+    "valor_total": 2729.74
+  },
+  {
+    "pedido_id": 1098,
+    "cliente": {
+      "cliente_id": 87,
+      "nome": "Ana Santos"
+    },
+    "data_pedido": "2026-04-09",
+    "canal": "app",
+    "status": "CANCELADO",
+    "itens": [
+      {
+        "produto_id": 5,
+        "produto": "Headset",
+        "quantidade": 3,
+        "preco_unitario": 1378.58
+      }
+    ],
+    "valor_total": 4135.74
+  },
+  {
+    "pedido_id": 1099,
+    "cliente": {
+      "cliente_id": 94,
+      "nome": "Bruno Silva"
+    },
+    "data_pedido": "2026-04-10",
+    "canal": "marketplace",
+    "status": "APROVADO",
+    "itens": [
+      {
+        "produto_id": 8,
+        "produto": "SSD",
+        "quantidade": 4,
+        "preco_unitario": 1392.29
+      }
+    ],
+    "valor_total": 5569.16
+  },
+  {
+    "pedido_id": 1100,
+    "cliente": {
+      "cliente_id": 1,
+      "nome": "Carla Almeida"
+    },
+    "data_pedido": "2026-04-11",
+    "canal": "loja",
+    "status": "PENDENTE",
+    "itens": [
+      {
+        "produto_id": 1,
+        "produto": "Notebook",
+        "quantidade": 1,
+        "preco_unitario": 1406.0
+      }
+    ],
+    "valor_total": 1406.0
+  }
+]

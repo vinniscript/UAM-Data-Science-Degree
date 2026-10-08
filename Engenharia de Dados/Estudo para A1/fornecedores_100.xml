@@ -1,0 +1,1503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fornecedores lote="FORN-2026-10" origem="laboratorio_etl">
+  <fornecedor id="1">
+    <razao_social>Fornecedor Castro 001 LTDA</razao_social>
+    <cnpj>11.101.201/0001-01</cnpj>
+    <contato>
+      <email>contato001@fornecedor.com.br</email>
+      <telefone>11 980000001</telefone>
+    </contato>
+    <endereco>
+      <cidade>Niteroi</cidade>
+      <uf>RJ</uf>
+    </endereco>
+    <categoria>Perifericos</categoria>
+    <avaliacao>2.6</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="2">
+    <razao_social>Fornecedor Esteves 002 LTDA</razao_social>
+    <cnpj>12.102.202/0001-02</cnpj>
+    <contato>
+      <email>contato002@fornecedor.com.br</email>
+      <telefone>11 980000002</telefone>
+    </contato>
+    <endereco>
+      <cidade>Belo Horizonte</cidade>
+      <uf>MG</uf>
+    </endereco>
+    <categoria>Rede</categoria>
+    <avaliacao>2.7</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="3">
+    <razao_social>Fornecedor Gomes 003 LTDA</razao_social>
+    <cnpj>13.103.203/0001-03</cnpj>
+    <contato>
+      <email>contato003@fornecedor.com.br</email>
+      <telefone>11 980000003</telefone>
+    </contato>
+    <endereco>
+      <cidade>Curitiba</cidade>
+      <uf>PR</uf>
+    </endereco>
+    <categoria>Armazenamento</categoria>
+    <avaliacao>2.8</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="4">
+    <razao_social>Fornecedor Martins 004 LTDA</razao_social>
+    <cnpj>14.104.204/0001-04</cnpj>
+    <contato>
+      <email>contato004@fornecedor.com.br</email>
+      <telefone>11 980000004</telefone>
+    </contato>
+    <endereco>
+      <cidade>Salvador</cidade>
+      <uf>BA</uf>
+    </endereco>
+    <categoria>Informatica</categoria>
+    <avaliacao>2.9</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="5">
+    <razao_social>Fornecedor Oliveira 005 LTDA</razao_social>
+    <cnpj>15.105.205/0001-05</cnpj>
+    <contato>
+      <email>contato005@fornecedor.com.br</email>
+      <telefone>11 980000005</telefone>
+    </contato>
+    <endereco>
+      <cidade>Recife</cidade>
+      <uf>PE</uf>
+    </endereco>
+    <categoria>Perifericos</categoria>
+    <avaliacao>3.0</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="6">
+    <razao_social>Fornecedor Rocha 006 LTDA</razao_social>
+    <cnpj>16.106.206/0001-06</cnpj>
+    <contato>
+      <email>contato006@fornecedor.com.br</email>
+      <telefone>11 980000006</telefone>
+    </contato>
+    <endereco>
+      <cidade>Brasilia</cidade>
+      <uf>DF</uf>
+    </endereco>
+    <categoria>Rede</categoria>
+    <avaliacao>3.1</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="7">
+    <razao_social>Fornecedor Silva 007 LTDA</razao_social>
+    <cnpj>17.107.207/0001-07</cnpj>
+    <contato>
+      <email>contato007@fornecedor.com.br</email>
+      <telefone>11 980000007</telefone>
+    </contato>
+    <endereco>
+      <cidade>Sao Paulo</cidade>
+      <uf>SP</uf>
+    </endereco>
+    <categoria>Armazenamento</categoria>
+    <avaliacao>3.2</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="8">
+    <razao_social>Fornecedor Barbosa 008 LTDA</razao_social>
+    <cnpj>18.108.208/0001-08</cnpj>
+    <contato>
+      <email>contato008@fornecedor.com.br</email>
+      <telefone>11 980000008</telefone>
+    </contato>
+    <endereco>
+      <cidade>Campinas</cidade>
+      <uf>SP</uf>
+    </endereco>
+    <categoria>Informatica</categoria>
+    <avaliacao>3.3</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="9">
+    <razao_social>Fornecedor Diniz 009 LTDA</razao_social>
+    <cnpj>19.109.209/0001-09</cnpj>
+    <contato>
+      <email>contato009@fornecedor.com.br</email>
+      <telefone>11 980000009</telefone>
+    </contato>
+    <endereco>
+      <cidade>Santos</cidade>
+      <uf>SP</uf>
+    </endereco>
+    <categoria>Perifericos</categoria>
+    <avaliacao>3.4</avaliacao>
+    <ativo>false</ativo>
+  </fornecedor>
+  <fornecedor id="10">
+    <razao_social>Fornecedor Freitas 010 LTDA</razao_social>
+    <cnpj>20.110.210/0001-10</cnpj>
+    <contato>
+      <email>contato010@fornecedor.com.br</email>
+      <telefone>11 980000010</telefone>
+    </contato>
+    <endereco>
+      <cidade>Rio de Janeiro</cidade>
+      <uf>RJ</uf>
+    </endereco>
+    <categoria>Rede</categoria>
+    <avaliacao>3.5</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="11">
+    <razao_social>Fornecedor Lima 011 LTDA</razao_social>
+    <cnpj>21.111.211/0001-11</cnpj>
+    <contato>
+      <email>contato011@fornecedor.com.br</email>
+      <telefone>11 980000011</telefone>
+    </contato>
+    <endereco>
+      <cidade>Niteroi</cidade>
+      <uf>RJ</uf>
+    </endereco>
+    <categoria>Armazenamento</categoria>
+    <avaliacao>3.6</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="12">
+    <razao_social>Fornecedor Nascimento 012 LTDA</razao_social>
+    <cnpj>22.112.212/0001-12</cnpj>
+    <contato>
+      <email>contato012@fornecedor.com.br</email>
+      <telefone>11 980000012</telefone>
+    </contato>
+    <endereco>
+      <cidade>Belo Horizonte</cidade>
+      <uf>MG</uf>
+    </endereco>
+    <categoria>Informatica</categoria>
+    <avaliacao>3.7</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="13">
+    <razao_social>Fornecedor Pereira 013 LTDA</razao_social>
+    <cnpj>23.113.213/0001-13</cnpj>
+    <contato>
+      <email>contato013@fornecedor.com.br</email>
+      <telefone>11 980000013</telefone>
+    </contato>
+    <endereco>
+      <cidade>Curitiba</cidade>
+      <uf>PR</uf>
+    </endereco>
+    <categoria>Perifericos</categoria>
+    <avaliacao>3.8</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="14">
+    <razao_social>Fornecedor Santos 014 LTDA</razao_social>
+    <cnpj>24.114.214/0001-14</cnpj>
+    <contato>
+      <email>contato014@fornecedor.com.br</email>
+      <telefone>11 980000014</telefone>
+    </contato>
+    <endereco>
+      <cidade>Salvador</cidade>
+      <uf>BA</uf>
+    </endereco>
+    <categoria>Rede</categoria>
+    <avaliacao>3.9</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="15">
+    <razao_social>Fornecedor Almeida 015 LTDA</razao_social>
+    <cnpj>25.115.215/0001-15</cnpj>
+    <contato>
+      <email>contato015@fornecedor.com.br</email>
+      <telefone>11 980000015</telefone>
+    </contato>
+    <endereco>
+      <cidade>Recife</cidade>
+      <uf>PE</uf>
+    </endereco>
+    <categoria>Armazenamento</categoria>
+    <avaliacao>4.0</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="16">
+    <razao_social>Fornecedor Castro 016 LTDA</razao_social>
+    <cnpj>26.116.216/0001-16</cnpj>
+    <contato>
+      <email>contato016@fornecedor.com.br</email>
+      <telefone>11 980000016</telefone>
+    </contato>
+    <endereco>
+      <cidade>Brasilia</cidade>
+      <uf>DF</uf>
+    </endereco>
+    <categoria>Informatica</categoria>
+    <avaliacao>4.1</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="17">
+    <razao_social>Fornecedor Esteves 017 LTDA</razao_social>
+    <cnpj>27.117.217/0001-17</cnpj>
+    <contato>
+      <email>contato017@fornecedor.com.br</email>
+      <telefone>11 980000017</telefone>
+    </contato>
+    <endereco>
+      <cidade>Sao Paulo</cidade>
+      <uf>SP</uf>
+    </endereco>
+    <categoria>Perifericos</categoria>
+    <avaliacao>4.2</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="18">
+    <razao_social>Fornecedor Gomes 018 LTDA</razao_social>
+    <cnpj>28.118.218/0001-18</cnpj>
+    <contato>
+      <email>contato018@fornecedor.com.br</email>
+      <telefone>11 980000018</telefone>
+    </contato>
+    <endereco>
+      <cidade>Campinas</cidade>
+      <uf>SP</uf>
+    </endereco>
+    <categoria>Rede</categoria>
+    <avaliacao>4.3</avaliacao>
+    <ativo>false</ativo>
+  </fornecedor>
+  <fornecedor id="19">
+    <razao_social>Fornecedor Martins 019 LTDA</razao_social>
+    <cnpj>29.119.219/0001-19</cnpj>
+    <contato>
+      <email>contato019@fornecedor.com.br</email>
+      <telefone>11 980000019</telefone>
+    </contato>
+    <endereco>
+      <cidade>Santos</cidade>
+      <uf>SP</uf>
+    </endereco>
+    <categoria>Armazenamento</categoria>
+    <avaliacao>4.4</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="20">
+    <razao_social>Fornecedor Oliveira 020 LTDA</razao_social>
+    <cnpj>30.120.220/0001-20</cnpj>
+    <contato>
+      <email>contato020@fornecedor.com.br</email>
+      <telefone>11 980000020</telefone>
+    </contato>
+    <endereco>
+      <cidade>Rio de Janeiro</cidade>
+      <uf>RJ</uf>
+    </endereco>
+    <categoria>Informatica</categoria>
+    <avaliacao>4.5</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="21">
+    <razao_social>Fornecedor Rocha 021 LTDA</razao_social>
+    <cnpj>31.121.221/0001-21</cnpj>
+    <contato>
+      <email>email-invalido</email>
+      <telefone>11 980000021</telefone>
+    </contato>
+    <endereco>
+      <cidade>Niteroi</cidade>
+      <uf>RJ</uf>
+    </endereco>
+    <categoria>Perifericos</categoria>
+    <avaliacao>4.6</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="22">
+    <razao_social>Fornecedor Silva 022 LTDA</razao_social>
+    <cnpj>32.122.222/0001-22</cnpj>
+    <contato>
+      <email>contato022@fornecedor.com.br</email>
+      <telefone>11 980000022</telefone>
+    </contato>
+    <endereco>
+      <cidade>Belo Horizonte</cidade>
+      <uf>MG</uf>
+    </endereco>
+    <categoria>Rede</categoria>
+    <avaliacao>4.7</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="23">
+    <razao_social>Fornecedor Barbosa 023 LTDA</razao_social>
+    <cnpj>33.123.223/0001-23</cnpj>
+    <contato>
+      <email>contato023@fornecedor.com.br</email>
+      <telefone>11 980000023</telefone>
+    </contato>
+    <endereco>
+      <cidade>Curitiba</cidade>
+      <uf>PR</uf>
+    </endereco>
+    <categoria>Armazenamento</categoria>
+    <avaliacao>4.8</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="24">
+    <razao_social>Fornecedor Diniz 024 LTDA</razao_social>
+    <cnpj>34.124.224/0001-24</cnpj>
+    <contato>
+      <email>contato024@fornecedor.com.br</email>
+      <telefone>11 980000024</telefone>
+    </contato>
+    <endereco>
+      <cidade>Salvador</cidade>
+      <uf>BA</uf>
+    </endereco>
+    <categoria>Informatica</categoria>
+    <avaliacao>4.9</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="25">
+    <razao_social>Fornecedor Freitas 025 LTDA</razao_social>
+    <cnpj>35.125.225/0001-25</cnpj>
+    <contato>
+      <email>contato025@fornecedor.com.br</email>
+      <telefone>11 980000025</telefone>
+    </contato>
+    <endereco>
+      <cidade>Recife</cidade>
+      <uf>PE</uf>
+    </endereco>
+    <categoria>Perifericos</categoria>
+    <avaliacao>5.0</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="26">
+    <razao_social>Fornecedor Lima 026 LTDA</razao_social>
+    <cnpj>36.126.226/0001-26</cnpj>
+    <contato>
+      <email>contato026@fornecedor.com.br</email>
+      <telefone>11 980000026</telefone>
+    </contato>
+    <endereco>
+      <cidade>Brasilia</cidade>
+      <uf>DF</uf>
+    </endereco>
+    <categoria>Rede</categoria>
+    <avaliacao>2.5</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="27">
+    <razao_social>Fornecedor Nascimento 027 LTDA</razao_social>
+    <cnpj>37.127.227/0001-27</cnpj>
+    <contato>
+      <email>contato027@fornecedor.com.br</email>
+      <telefone>11 980000027</telefone>
+    </contato>
+    <endereco>
+      <cidade>Sao Paulo</cidade>
+      <uf>SP</uf>
+    </endereco>
+    <categoria>Armazenamento</categoria>
+    <avaliacao>2.6</avaliacao>
+    <ativo>false</ativo>
+  </fornecedor>
+  <fornecedor id="28">
+    <razao_social>Fornecedor Pereira 028 LTDA</razao_social>
+    <cnpj>38.128.228/0001-28</cnpj>
+    <contato>
+      <email>contato028@fornecedor.com.br</email>
+      <telefone>11 980000028</telefone>
+    </contato>
+    <endereco>
+      <cidade>Campinas</cidade>
+      <uf>SP</uf>
+    </endereco>
+    <categoria>Informatica</categoria>
+    <avaliacao>2.7</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="29">
+    <razao_social>Fornecedor Santos 029 LTDA</razao_social>
+    <cnpj>39.129.229/0001-29</cnpj>
+    <contato>
+      <email>contato029@fornecedor.com.br</email>
+      <telefone>11 980000029</telefone>
+    </contato>
+    <endereco>
+      <cidade>Santos</cidade>
+      <uf>SP</uf>
+    </endereco>
+    <categoria>Perifericos</categoria>
+    <avaliacao>2.8</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="30">
+    <razao_social>Fornecedor Almeida 030 LTDA</razao_social>
+    <cnpj>40.130.230/0001-30</cnpj>
+    <contato>
+      <email>contato030@fornecedor.com.br</email>
+      <telefone>11 980000030</telefone>
+    </contato>
+    <endereco>
+      <cidade>Rio de Janeiro</cidade>
+      <uf>RJ</uf>
+    </endereco>
+    <categoria>Rede</categoria>
+    <avaliacao>2.9</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="31">
+    <razao_social>Fornecedor Castro 031 LTDA</razao_social>
+    <cnpj>41.131.231/0001-31</cnpj>
+    <contato>
+      <email>contato031@fornecedor.com.br</email>
+      <telefone>11 980000031</telefone>
+    </contato>
+    <endereco>
+      <cidade>Niteroi</cidade>
+      <uf>RJ</uf>
+    </endereco>
+    <categoria>Armazenamento</categoria>
+    <avaliacao>3.0</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="32">
+    <razao_social>Fornecedor Esteves 032 LTDA</razao_social>
+    <cnpj>42.132.232/0001-32</cnpj>
+    <contato>
+      <email>contato032@fornecedor.com.br</email>
+      <telefone>11 980000032</telefone>
+    </contato>
+    <endereco>
+      <cidade>Belo Horizonte</cidade>
+      <uf>MG</uf>
+    </endereco>
+    <categoria>Informatica</categoria>
+    <avaliacao>3.1</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="33">
+    <razao_social>Fornecedor Gomes 033 LTDA</razao_social>
+    <cnpj>43.133.233/0001-33</cnpj>
+    <contato>
+      <email>contato033@fornecedor.com.br</email>
+      <telefone>11 980000033</telefone>
+    </contato>
+    <endereco>
+      <cidade>Curitiba</cidade>
+      <uf>PR</uf>
+    </endereco>
+    <categoria>Perifericos</categoria>
+    <avaliacao>3.2</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="34">
+    <razao_social>Fornecedor Martins 034 LTDA</razao_social>
+    <cnpj>44.134.234/0001-34</cnpj>
+    <contato>
+      <email>contato034@fornecedor.com.br</email>
+      <telefone>11 980000034</telefone>
+    </contato>
+    <endereco>
+      <cidade>Salvador</cidade>
+      <uf>BA</uf>
+    </endereco>
+    <categoria>Rede</categoria>
+    <avaliacao>3.3</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="35">
+    <razao_social>Fornecedor Oliveira 035 LTDA</razao_social>
+    <cnpj>45.135.235/0001-35</cnpj>
+    <contato>
+      <email>contato035@fornecedor.com.br</email>
+      <telefone>11 980000035</telefone>
+    </contato>
+    <endereco>
+      <cidade>Recife</cidade>
+      <uf>PE</uf>
+    </endereco>
+    <categoria>Armazenamento</categoria>
+    <avaliacao>3.4</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="36">
+    <razao_social>Fornecedor Rocha 036 LTDA</razao_social>
+    <cnpj>46.136.236/0001-36</cnpj>
+    <contato>
+      <email>contato036@fornecedor.com.br</email>
+      <telefone>11 980000036</telefone>
+    </contato>
+    <endereco>
+      <cidade>Brasilia</cidade>
+      <uf>DF</uf>
+    </endereco>
+    <categoria>Informatica</categoria>
+    <avaliacao>3.5</avaliacao>
+    <ativo>false</ativo>
+  </fornecedor>
+  <fornecedor id="37">
+    <razao_social>Fornecedor Silva 037 LTDA</razao_social>
+    <cnpj>47.137.237/0001-37</cnpj>
+    <contato>
+      <email>contato037@fornecedor.com.br</email>
+      <telefone>11 980000037</telefone>
+    </contato>
+    <endereco>
+      <cidade>Sao Paulo</cidade>
+      <uf>SP</uf>
+    </endereco>
+    <categoria>Perifericos</categoria>
+    <avaliacao>3.6</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="38">
+    <razao_social>Fornecedor Barbosa 038 LTDA</razao_social>
+    <cnpj>SEM-CNPJ</cnpj>
+    <contato>
+      <email>contato038@fornecedor.com.br</email>
+      <telefone>11 980000038</telefone>
+    </contato>
+    <endereco>
+      <cidade>Campinas</cidade>
+      <uf>SP</uf>
+    </endereco>
+    <categoria>Rede</categoria>
+    <avaliacao>3.7</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="39">
+    <razao_social>Fornecedor Diniz 039 LTDA</razao_social>
+    <cnpj>49.139.239/0001-39</cnpj>
+    <contato>
+      <email>contato039@fornecedor.com.br</email>
+      <telefone>11 980000039</telefone>
+    </contato>
+    <endereco>
+      <cidade>Santos</cidade>
+      <uf>SP</uf>
+    </endereco>
+    <categoria>Armazenamento</categoria>
+    <avaliacao>3.8</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="40">
+    <razao_social>Fornecedor Freitas 040 LTDA</razao_social>
+    <cnpj>50.140.240/0001-40</cnpj>
+    <contato>
+      <email>contato040@fornecedor.com.br</email>
+      <telefone>11 980000040</telefone>
+    </contato>
+    <endereco>
+      <cidade>Rio de Janeiro</cidade>
+      <uf>RJ</uf>
+    </endereco>
+    <categoria>Informatica</categoria>
+    <avaliacao>3.9</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="41">
+    <razao_social>Fornecedor Lima 041 LTDA</razao_social>
+    <cnpj>51.141.241/0001-41</cnpj>
+    <contato>
+      <email>contato041@fornecedor.com.br</email>
+      <telefone>11 980000041</telefone>
+    </contato>
+    <endereco>
+      <cidade>Niteroi</cidade>
+      <uf>RJ</uf>
+    </endereco>
+    <categoria>Perifericos</categoria>
+    <avaliacao>4.0</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="42">
+    <razao_social>Fornecedor Nascimento 042 LTDA</razao_social>
+    <cnpj>52.142.242/0001-42</cnpj>
+    <contato>
+      <email>contato042@fornecedor.com.br</email>
+      <telefone>11 980000042</telefone>
+    </contato>
+    <endereco>
+      <cidade>Belo Horizonte</cidade>
+      <uf>MG</uf>
+    </endereco>
+    <categoria>Rede</categoria>
+    <avaliacao>4.1</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="43">
+    <razao_social>Fornecedor Pereira 043 LTDA</razao_social>
+    <cnpj>53.143.243/0001-43</cnpj>
+    <contato>
+      <email>contato043@fornecedor.com.br</email>
+      <telefone>11 980000043</telefone>
+    </contato>
+    <endereco>
+      <cidade>Curitiba</cidade>
+      <uf>PR</uf>
+    </endereco>
+    <categoria>Armazenamento</categoria>
+    <avaliacao>4.2</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="44">
+    <razao_social>Fornecedor Santos 044 LTDA</razao_social>
+    <cnpj>54.144.244/0001-44</cnpj>
+    <contato>
+      <email>contato044@fornecedor.com.br</email>
+      <telefone>11 980000044</telefone>
+    </contato>
+    <endereco>
+      <cidade>Salvador</cidade>
+      <uf>BA</uf>
+    </endereco>
+    <categoria>Informatica</categoria>
+    <avaliacao>4.3</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="45">
+    <razao_social>Fornecedor Almeida 045 LTDA</razao_social>
+    <cnpj>55.145.245/0001-45</cnpj>
+    <contato>
+      <email>contato045@fornecedor.com.br</email>
+      <telefone>11 980000045</telefone>
+    </contato>
+    <endereco>
+      <cidade>Recife</cidade>
+      <uf>PE</uf>
+    </endereco>
+    <categoria>Perifericos</categoria>
+    <avaliacao>4.4</avaliacao>
+    <ativo>false</ativo>
+  </fornecedor>
+  <fornecedor id="46">
+    <razao_social>Fornecedor Castro 046 LTDA</razao_social>
+    <cnpj>56.146.246/0001-46</cnpj>
+    <contato>
+      <email>contato046@fornecedor.com.br</email>
+      <telefone>11 980000046</telefone>
+    </contato>
+    <endereco>
+      <cidade>Brasilia</cidade>
+      <uf>DF</uf>
+    </endereco>
+    <categoria>Rede</categoria>
+    <avaliacao>4.5</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="47">
+    <razao_social>Fornecedor Esteves 047 LTDA</razao_social>
+    <cnpj>57.147.247/0001-47</cnpj>
+    <contato>
+      <email>contato047@fornecedor.com.br</email>
+      <telefone>11 980000047</telefone>
+    </contato>
+    <endereco>
+      <cidade>Sao Paulo</cidade>
+      <uf>SP</uf>
+    </endereco>
+    <categoria>Armazenamento</categoria>
+    <avaliacao>4.6</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="48">
+    <razao_social>Fornecedor Gomes 048 LTDA</razao_social>
+    <cnpj>58.148.248/0001-48</cnpj>
+    <contato>
+      <email>contato048@fornecedor.com.br</email>
+      <telefone>11 980000048</telefone>
+    </contato>
+    <endereco>
+      <cidade>Campinas</cidade>
+      <uf>SP</uf>
+    </endereco>
+    <categoria>Informatica</categoria>
+    <avaliacao>4.7</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="49">
+    <razao_social>Fornecedor Martins 049 LTDA</razao_social>
+    <cnpj>59.149.249/0001-49</cnpj>
+    <contato>
+      <email>contato049@fornecedor.com.br</email>
+      <telefone>11 980000049</telefone>
+    </contato>
+    <endereco>
+      <cidade>Santos</cidade>
+      <uf>SP</uf>
+    </endereco>
+    <categoria>Perifericos</categoria>
+    <avaliacao>4.8</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="50">
+    <razao_social>Fornecedor Oliveira 050 LTDA</razao_social>
+    <cnpj>60.150.250/0001-50</cnpj>
+    <contato>
+      <email>contato050@fornecedor.com.br</email>
+      <telefone>11 980000050</telefone>
+    </contato>
+    <endereco>
+      <cidade>Rio de Janeiro</cidade>
+      <uf>RJ</uf>
+    </endereco>
+    <categoria>Rede</categoria>
+    <avaliacao>4.9</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="51">
+    <razao_social>Fornecedor Rocha 051 LTDA</razao_social>
+    <cnpj>61.151.251/0001-51</cnpj>
+    <contato>
+      <email>contato051@fornecedor.com.br</email>
+      <telefone>11 980000051</telefone>
+    </contato>
+    <endereco>
+      <cidade>Niteroi</cidade>
+      <uf>RJ</uf>
+    </endereco>
+    <categoria>Armazenamento</categoria>
+    <avaliacao>5.0</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="52">
+    <razao_social>Fornecedor Silva 052 LTDA</razao_social>
+    <cnpj>62.152.252/0001-52</cnpj>
+    <contato>
+      <email>contato052@fornecedor.com.br</email>
+      <telefone>11 980000052</telefone>
+    </contato>
+    <endereco>
+      <cidade>Belo Horizonte</cidade>
+      <uf>MG</uf>
+    </endereco>
+    <categoria>Informatica</categoria>
+    <avaliacao>2.5</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="53">
+    <razao_social>Fornecedor Barbosa 053 LTDA</razao_social>
+    <cnpj>63.153.253/0001-53</cnpj>
+    <contato>
+      <email>contato053@fornecedor.com.br</email>
+      <telefone>11 980000053</telefone>
+    </contato>
+    <endereco>
+      <cidade>Curitiba</cidade>
+      <uf>PR</uf>
+    </endereco>
+    <categoria>Perifericos</categoria>
+    <avaliacao>2.6</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="54">
+    <razao_social>Fornecedor Diniz 054 LTDA</razao_social>
+    <cnpj>64.154.254/0001-54</cnpj>
+    <contato>
+      <email>contato054@fornecedor.com.br</email>
+      <telefone>11 980000054</telefone>
+    </contato>
+    <endereco>
+      <cidade>Salvador</cidade>
+      <uf>BA</uf>
+    </endereco>
+    <categoria>Rede</categoria>
+    <avaliacao>2.7</avaliacao>
+    <ativo>false</ativo>
+  </fornecedor>
+  <fornecedor id="55">
+    <razao_social>Fornecedor Freitas 055 LTDA</razao_social>
+    <cnpj>65.155.255/0001-55</cnpj>
+    <contato>
+      <email>contato055@fornecedor.com.br</email>
+      <telefone>11 980000055</telefone>
+    </contato>
+    <endereco>
+      <cidade>Recife</cidade>
+      <uf>PE</uf>
+    </endereco>
+    <categoria>Armazenamento</categoria>
+    <avaliacao>2.8</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="56">
+    <razao_social>Fornecedor Lima 056 LTDA</razao_social>
+    <cnpj>66.156.256/0001-56</cnpj>
+    <contato>
+      <email>contato056@fornecedor.com.br</email>
+      <telefone>11 980000056</telefone>
+    </contato>
+    <endereco>
+      <cidade>Brasilia</cidade>
+      <uf>DF</uf>
+    </endereco>
+    <categoria>Informatica</categoria>
+    <avaliacao>2.9</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="57">
+    <razao_social>Fornecedor Nascimento 057 LTDA</razao_social>
+    <cnpj>67.157.257/0001-57</cnpj>
+    <contato>
+      <email>contato057@fornecedor.com.br</email>
+      <telefone>11 980000057</telefone>
+    </contato>
+    <endereco>
+      <cidade>Sao Paulo</cidade>
+      <uf>ZZ</uf>
+    </endereco>
+    <categoria>Perifericos</categoria>
+    <avaliacao>3.0</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="58">
+    <razao_social>Fornecedor Pereira 058 LTDA</razao_social>
+    <cnpj>68.158.258/0001-58</cnpj>
+    <contato>
+      <email>contato058@fornecedor.com.br</email>
+      <telefone>11 980000058</telefone>
+    </contato>
+    <endereco>
+      <cidade>Campinas</cidade>
+      <uf>SP</uf>
+    </endereco>
+    <categoria>Rede</categoria>
+    <avaliacao>3.1</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="59">
+    <razao_social>Fornecedor Santos 059 LTDA</razao_social>
+    <cnpj>69.159.259/0001-59</cnpj>
+    <contato>
+      <email>contato059@fornecedor.com.br</email>
+      <telefone>11 980000059</telefone>
+    </contato>
+    <endereco>
+      <cidade>Santos</cidade>
+      <uf>SP</uf>
+    </endereco>
+    <categoria>Armazenamento</categoria>
+    <avaliacao>3.2</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="60">
+    <razao_social>Fornecedor Almeida 060 LTDA</razao_social>
+    <cnpj>70.160.260/0001-60</cnpj>
+    <contato>
+      <email>contato060@fornecedor.com.br</email>
+      <telefone>11 980000060</telefone>
+    </contato>
+    <endereco>
+      <cidade>Rio de Janeiro</cidade>
+      <uf>RJ</uf>
+    </endereco>
+    <categoria>Informatica</categoria>
+    <avaliacao>3.3</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="61">
+    <razao_social>Fornecedor Castro 061 LTDA</razao_social>
+    <cnpj>71.161.261/0001-61</cnpj>
+    <contato>
+      <email>contato061@fornecedor.com.br</email>
+      <telefone>11 980000061</telefone>
+    </contato>
+    <endereco>
+      <cidade>Niteroi</cidade>
+      <uf>RJ</uf>
+    </endereco>
+    <categoria>Perifericos</categoria>
+    <avaliacao>3.4</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="62">
+    <razao_social>Fornecedor Esteves 062 LTDA</razao_social>
+    <cnpj>72.162.262/0001-62</cnpj>
+    <contato>
+      <email>contato062@fornecedor.com.br</email>
+      <telefone>11 980000062</telefone>
+    </contato>
+    <endereco>
+      <cidade>Belo Horizonte</cidade>
+      <uf>MG</uf>
+    </endereco>
+    <categoria>Rede</categoria>
+    <avaliacao>3.5</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="63">
+    <razao_social>Fornecedor Gomes 063 LTDA</razao_social>
+    <cnpj>73.163.263/0001-63</cnpj>
+    <contato>
+      <email>contato063@fornecedor.com.br</email>
+      <telefone>11 980000063</telefone>
+    </contato>
+    <endereco>
+      <cidade>Curitiba</cidade>
+      <uf>PR</uf>
+    </endereco>
+    <categoria>Armazenamento</categoria>
+    <avaliacao>3.6</avaliacao>
+    <ativo>false</ativo>
+  </fornecedor>
+  <fornecedor id="64">
+    <razao_social>Fornecedor Martins 064 LTDA</razao_social>
+    <cnpj>74.164.264/0001-64</cnpj>
+    <contato>
+      <email>contato064@fornecedor.com.br</email>
+      <telefone>11 980000064</telefone>
+    </contato>
+    <endereco>
+      <cidade>Salvador</cidade>
+      <uf>BA</uf>
+    </endereco>
+    <categoria>Informatica</categoria>
+    <avaliacao>3.7</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="65">
+    <razao_social>Fornecedor Oliveira 065 LTDA</razao_social>
+    <cnpj>75.165.265/0001-65</cnpj>
+    <contato>
+      <email>contato065@fornecedor.com.br</email>
+      <telefone>11 980000065</telefone>
+    </contato>
+    <endereco>
+      <cidade>Recife</cidade>
+      <uf>PE</uf>
+    </endereco>
+    <categoria>Perifericos</categoria>
+    <avaliacao>3.8</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="66">
+    <razao_social>Fornecedor Rocha 066 LTDA</razao_social>
+    <cnpj>76.166.266/0001-66</cnpj>
+    <contato>
+      <email>contato066@fornecedor.com.br</email>
+      <telefone>11 980000066</telefone>
+    </contato>
+    <endereco>
+      <cidade>Brasilia</cidade>
+      <uf>DF</uf>
+    </endereco>
+    <categoria>Rede</categoria>
+    <avaliacao>3.9</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="67">
+    <razao_social>Fornecedor Silva 067 LTDA</razao_social>
+    <cnpj>77.167.267/0001-67</cnpj>
+    <contato>
+      <email>contato067@fornecedor.com.br</email>
+      <telefone>11 980000067</telefone>
+    </contato>
+    <endereco>
+      <cidade>Sao Paulo</cidade>
+      <uf>SP</uf>
+    </endereco>
+    <categoria>Armazenamento</categoria>
+    <avaliacao>4.0</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="68">
+    <razao_social>Fornecedor Barbosa 068 LTDA</razao_social>
+    <cnpj>78.168.268/0001-68</cnpj>
+    <contato>
+      <email>contato068@fornecedor.com.br</email>
+      <telefone>11 980000068</telefone>
+    </contato>
+    <endereco>
+      <cidade>Campinas</cidade>
+      <uf>SP</uf>
+    </endereco>
+    <categoria>Informatica</categoria>
+    <avaliacao>4.1</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="69">
+    <razao_social>Fornecedor Diniz 069 LTDA</razao_social>
+    <cnpj>79.169.269/0001-69</cnpj>
+    <contato>
+      <email>contato069@fornecedor.com.br</email>
+      <telefone>11 980000069</telefone>
+    </contato>
+    <endereco>
+      <cidade>Santos</cidade>
+      <uf>SP</uf>
+    </endereco>
+    <categoria>Perifericos</categoria>
+    <avaliacao>4.2</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="70">
+    <razao_social>Fornecedor Freitas 070 LTDA</razao_social>
+    <cnpj>80.170.270/0001-70</cnpj>
+    <contato>
+      <email>contato070@fornecedor.com.br</email>
+      <telefone>11 980000070</telefone>
+    </contato>
+    <endereco>
+      <cidade>Rio de Janeiro</cidade>
+      <uf>RJ</uf>
+    </endereco>
+    <categoria>Rede</categoria>
+    <avaliacao>4.3</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="71">
+    <razao_social>Fornecedor Lima 071 LTDA</razao_social>
+    <cnpj>81.171.271/0001-71</cnpj>
+    <contato>
+      <email>contato071@fornecedor.com.br</email>
+      <telefone>11 980000071</telefone>
+    </contato>
+    <endereco>
+      <cidade>Niteroi</cidade>
+      <uf>RJ</uf>
+    </endereco>
+    <categoria>Armazenamento</categoria>
+    <avaliacao>4.4</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="72">
+    <razao_social>Fornecedor Nascimento 072 LTDA</razao_social>
+    <cnpj>82.172.272/0001-72</cnpj>
+    <contato>
+      <email>contato072@fornecedor.com.br</email>
+      <telefone>11 980000072</telefone>
+    </contato>
+    <endereco>
+      <cidade>Belo Horizonte</cidade>
+      <uf>MG</uf>
+    </endereco>
+    <categoria>Informatica</categoria>
+    <avaliacao>4.5</avaliacao>
+    <ativo>false</ativo>
+  </fornecedor>
+  <fornecedor id="73">
+    <razao_social>Fornecedor Pereira 073 LTDA</razao_social>
+    <cnpj>83.173.273/0001-73</cnpj>
+    <contato>
+      <email>contato073@fornecedor.com.br</email>
+      <telefone>11 980000073</telefone>
+    </contato>
+    <endereco>
+      <cidade>Curitiba</cidade>
+      <uf>PR</uf>
+    </endereco>
+    <categoria>Perifericos</categoria>
+    <avaliacao>8.7</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="74">
+    <razao_social>Fornecedor Santos 074 LTDA</razao_social>
+    <cnpj>84.174.274/0001-74</cnpj>
+    <contato>
+      <email>contato074@fornecedor.com.br</email>
+      <telefone>11 980000074</telefone>
+    </contato>
+    <endereco>
+      <cidade>Salvador</cidade>
+      <uf>BA</uf>
+    </endereco>
+    <categoria>Rede</categoria>
+    <avaliacao>4.7</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="75">
+    <razao_social>Fornecedor Almeida 075 LTDA</razao_social>
+    <cnpj>85.175.275/0001-75</cnpj>
+    <contato>
+      <email>contato075@fornecedor.com.br</email>
+      <telefone>11 980000075</telefone>
+    </contato>
+    <endereco>
+      <cidade>Recife</cidade>
+      <uf>PE</uf>
+    </endereco>
+    <categoria>Armazenamento</categoria>
+    <avaliacao>4.8</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="76">
+    <razao_social>Fornecedor Castro 076 LTDA</razao_social>
+    <cnpj>86.176.276/0001-76</cnpj>
+    <contato>
+      <email>contato076@fornecedor.com.br</email>
+      <telefone>11 980000076</telefone>
+    </contato>
+    <endereco>
+      <cidade>Brasilia</cidade>
+      <uf>DF</uf>
+    </endereco>
+    <categoria>Informatica</categoria>
+    <avaliacao>4.9</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="77">
+    <razao_social>Fornecedor Esteves 077 LTDA</razao_social>
+    <cnpj>87.177.277/0001-77</cnpj>
+    <contato>
+      <email>contato077@fornecedor.com.br</email>
+      <telefone>11 980000077</telefone>
+    </contato>
+    <endereco>
+      <cidade>Sao Paulo</cidade>
+      <uf>SP</uf>
+    </endereco>
+    <categoria>Perifericos</categoria>
+    <avaliacao>5.0</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="78">
+    <razao_social>Fornecedor Gomes 078 LTDA</razao_social>
+    <cnpj>88.178.278/0001-78</cnpj>
+    <contato>
+      <email>contato078@fornecedor.com.br</email>
+      <telefone>11 980000078</telefone>
+    </contato>
+    <endereco>
+      <cidade>Campinas</cidade>
+      <uf>SP</uf>
+    </endereco>
+    <categoria>Rede</categoria>
+    <avaliacao>2.5</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="79">
+    <razao_social>Fornecedor Martins 079 LTDA</razao_social>
+    <cnpj>89.179.279/0001-79</cnpj>
+    <contato>
+      <email>contato079@fornecedor.com.br</email>
+      <telefone>11 980000079</telefone>
+    </contato>
+    <endereco>
+      <cidade>Santos</cidade>
+      <uf>SP</uf>
+    </endereco>
+    <categoria>Armazenamento</categoria>
+    <avaliacao>2.6</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="80">
+    <razao_social>Fornecedor Oliveira 080 LTDA</razao_social>
+    <cnpj>90.180.280/0001-80</cnpj>
+    <contato>
+      <email>contato080@fornecedor.com.br</email>
+      <telefone>11 980000080</telefone>
+    </contato>
+    <endereco>
+      <cidade>Rio de Janeiro</cidade>
+      <uf>RJ</uf>
+    </endereco>
+    <categoria>Informatica</categoria>
+    <avaliacao>2.7</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="81">
+    <razao_social>Fornecedor Rocha 081 LTDA</razao_social>
+    <cnpj>91.181.281/0001-81</cnpj>
+    <contato>
+      <email>contato081@fornecedor.com.br</email>
+      <telefone>11 980000081</telefone>
+    </contato>
+    <endereco>
+      <cidade>Niteroi</cidade>
+      <uf>RJ</uf>
+    </endereco>
+    <categoria>Perifericos</categoria>
+    <avaliacao>2.8</avaliacao>
+    <ativo>false</ativo>
+  </fornecedor>
+  <fornecedor id="82">
+    <razao_social>Fornecedor Silva 082 LTDA</razao_social>
+    <cnpj>92.182.282/0001-82</cnpj>
+    <contato>
+      <email>contato082@fornecedor.com.br</email>
+      <telefone>11 980000082</telefone>
+    </contato>
+    <endereco>
+      <cidade>Belo Horizonte</cidade>
+      <uf>MG</uf>
+    </endereco>
+    <categoria>Rede</categoria>
+    <avaliacao>2.9</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="83">
+    <razao_social>Fornecedor Barbosa 083 LTDA</razao_social>
+    <cnpj>93.183.283/0001-83</cnpj>
+    <contato>
+      <email>contato083@fornecedor.com.br</email>
+      <telefone>11 980000083</telefone>
+    </contato>
+    <endereco>
+      <cidade>Curitiba</cidade>
+      <uf>PR</uf>
+    </endereco>
+    <categoria>Armazenamento</categoria>
+    <avaliacao>3.0</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="84">
+    <razao_social>Fornecedor Diniz 084 LTDA</razao_social>
+    <cnpj>94.184.284/0001-84</cnpj>
+    <contato>
+      <email>contato084@fornecedor.com.br</email>
+      <telefone>11 980000084</telefone>
+    </contato>
+    <endereco>
+      <cidade>Salvador</cidade>
+      <uf>BA</uf>
+    </endereco>
+    <categoria>Informatica</categoria>
+    <avaliacao>3.1</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="85">
+    <razao_social>Fornecedor Freitas 085 LTDA</razao_social>
+    <cnpj>95.185.285/0001-85</cnpj>
+    <contato>
+      <email>contato085@fornecedor.com.br</email>
+      <telefone>11 980000085</telefone>
+    </contato>
+    <endereco>
+      <cidade>Recife</cidade>
+      <uf>PE</uf>
+    </endereco>
+    <categoria>Perifericos</categoria>
+    <avaliacao>3.2</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="86">
+    <razao_social>Fornecedor Lima 086 LTDA</razao_social>
+    <cnpj>96.186.286/0001-86</cnpj>
+    <contato>
+      <email>contato086@fornecedor.com.br</email>
+      <telefone>11 980000086</telefone>
+    </contato>
+    <endereco>
+      <cidade>Brasilia</cidade>
+      <uf>DF</uf>
+    </endereco>
+    <categoria>Rede</categoria>
+    <avaliacao>3.3</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="87">
+    <razao_social>Fornecedor Nascimento 087 LTDA</razao_social>
+    <cnpj>97.187.287/0001-87</cnpj>
+    <contato>
+      <email>contato087@fornecedor.com.br</email>
+      <telefone>11 980000087</telefone>
+    </contato>
+    <endereco>
+      <cidade>Sao Paulo</cidade>
+      <uf>SP</uf>
+    </endereco>
+    <categoria>Armazenamento</categoria>
+    <avaliacao>3.4</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="88">
+    <razao_social>Fornecedor Pereira 088 LTDA</razao_social>
+    <cnpj>98.188.288/0001-88</cnpj>
+    <contato>
+      <email>contato088@fornecedor.com.br</email>
+      <telefone>11 980000088</telefone>
+    </contato>
+    <endereco>
+      <cidade>Campinas</cidade>
+      <uf>SP</uf>
+    </endereco>
+    <categoria>Informatica</categoria>
+    <avaliacao>3.5</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="89">
+    <razao_social>Fornecedor Santos 089 LTDA</razao_social>
+    <cnpj>99.189.289/0001-89</cnpj>
+    <contato>
+      <email>contato089@fornecedor.com.br</email>
+      <telefone>11 980000089</telefone>
+    </contato>
+    <endereco>
+      <cidade>Santos</cidade>
+      <uf>SP</uf>
+    </endereco>
+    <categoria>Perifericos</categoria>
+    <avaliacao>3.6</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="90">
+    <razao_social/>
+    <cnpj>100.190.290/0001-90</cnpj>
+    <contato>
+      <email>contato090@fornecedor.com.br</email>
+      <telefone>11 980000090</telefone>
+    </contato>
+    <endereco>
+      <cidade>Rio de Janeiro</cidade>
+      <uf>RJ</uf>
+    </endereco>
+    <categoria>Rede</categoria>
+    <avaliacao>3.7</avaliacao>
+    <ativo>false</ativo>
+  </fornecedor>
+  <fornecedor id="91">
+    <razao_social>Fornecedor Castro 091 LTDA</razao_social>
+    <cnpj>101.191.291/0001-91</cnpj>
+    <contato>
+      <email>contato091@fornecedor.com.br</email>
+      <telefone>11 980000091</telefone>
+    </contato>
+    <endereco>
+      <cidade>Niteroi</cidade>
+      <uf>RJ</uf>
+    </endereco>
+    <categoria>Armazenamento</categoria>
+    <avaliacao>3.8</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="92">
+    <razao_social>Fornecedor Esteves 092 LTDA</razao_social>
+    <cnpj>102.192.292/0001-92</cnpj>
+    <contato>
+      <email>contato092@fornecedor.com.br</email>
+      <telefone>11 980000092</telefone>
+    </contato>
+    <endereco>
+      <cidade>Belo Horizonte</cidade>
+      <uf>MG</uf>
+    </endereco>
+    <categoria>Informatica</categoria>
+    <avaliacao>3.9</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="93">
+    <razao_social>Fornecedor Gomes 093 LTDA</razao_social>
+    <cnpj>103.193.293/0001-93</cnpj>
+    <contato>
+      <email>contato093@fornecedor.com.br</email>
+      <telefone>11 980000093</telefone>
+    </contato>
+    <endereco>
+      <cidade>Curitiba</cidade>
+      <uf>PR</uf>
+    </endereco>
+    <categoria>Perifericos</categoria>
+    <avaliacao>4.0</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="94">
+    <razao_social>Fornecedor Martins 094 LTDA</razao_social>
+    <cnpj>104.194.294/0001-94</cnpj>
+    <contato>
+      <email>contato094@fornecedor.com.br</email>
+      <telefone>11 980000094</telefone>
+    </contato>
+    <endereco>
+      <cidade>Salvador</cidade>
+      <uf>BA</uf>
+    </endereco>
+    <categoria>Rede</categoria>
+    <avaliacao>4.1</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="95">
+    <razao_social>Fornecedor Oliveira 095 LTDA</razao_social>
+    <cnpj>105.195.295/0001-95</cnpj>
+    <contato>
+      <email>contato095@fornecedor.com.br</email>
+      <telefone>11 980000095</telefone>
+    </contato>
+    <endereco>
+      <cidade>Recife</cidade>
+      <uf>PE</uf>
+    </endereco>
+    <categoria>Armazenamento</categoria>
+    <avaliacao>4.2</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="96">
+    <razao_social>Fornecedor Rocha 096 LTDA</razao_social>
+    <cnpj>106.196.296/0001-96</cnpj>
+    <contato>
+      <email>contato096@fornecedor.com.br</email>
+      <telefone>11 980000096</telefone>
+    </contato>
+    <endereco>
+      <cidade>Brasilia</cidade>
+      <uf>DF</uf>
+    </endereco>
+    <categoria>Informatica</categoria>
+    <avaliacao>4.3</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="97">
+    <razao_social>Fornecedor Silva 097 LTDA</razao_social>
+    <cnpj>107.197.297/0001-97</cnpj>
+    <contato>
+      <email>contato097@fornecedor.com.br</email>
+      <telefone>11 980000097</telefone>
+    </contato>
+    <endereco>
+      <cidade>Sao Paulo</cidade>
+      <uf>SP</uf>
+    </endereco>
+    <categoria>Perifericos</categoria>
+    <avaliacao>4.4</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="98">
+    <razao_social>Fornecedor Barbosa 098 LTDA</razao_social>
+    <cnpj>108.198.298/0001-98</cnpj>
+    <contato>
+      <email>contato098@fornecedor.com.br</email>
+      <telefone>11 980000098</telefone>
+    </contato>
+    <endereco>
+      <cidade>Campinas</cidade>
+      <uf>SP</uf>
+    </endereco>
+    <categoria>Rede</categoria>
+    <avaliacao>4.5</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+  <fornecedor id="99">
+    <razao_social>Fornecedor Diniz 099 LTDA</razao_social>
+    <cnpj>109.199.299/0001-99</cnpj>
+    <contato>
+      <email>contato099@fornecedor.com.br</email>
+      <telefone>11 980000099</telefone>
+    </contato>
+    <endereco>
+      <cidade>Santos</cidade>
+      <uf>SP</uf>
+    </endereco>
+    <categoria>Armazenamento</categoria>
+    <avaliacao>4.6</avaliacao>
+    <ativo>false</ativo>
+  </fornecedor>
+  <fornecedor id="100">
+    <razao_social>Fornecedor Freitas 100 LTDA</razao_social>
+    <cnpj>110.200.300/0001-00</cnpj>
+    <contato>
+      <email>contato100@fornecedor.com.br</email>
+      <telefone>11 980000100</telefone>
+    </contato>
+    <endereco>
+      <cidade>Rio de Janeiro</cidade>
+      <uf>RJ</uf>
+    </endereco>
+    <categoria>Informatica</categoria>
+    <avaliacao>4.7</avaliacao>
+    <ativo>true</ativo>
+  </fornecedor>
+</fornecedores>
