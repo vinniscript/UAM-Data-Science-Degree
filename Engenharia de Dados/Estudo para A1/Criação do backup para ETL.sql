@@ -18,3 +18,4 @@ WITH FILE = x -> 'x' sendo o numero do FILE que você pega na position quando fa
 
 RESTORE VERIFYONLY -- Retorna se o arquivo é legível e aplicável pelo SQL Server
 FROM DISK = '/var/opt/mssql/backups/DataCommerce_pre_ELT_A1.bak';
+
