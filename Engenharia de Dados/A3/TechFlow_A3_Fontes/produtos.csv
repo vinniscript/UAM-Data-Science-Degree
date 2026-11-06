@@ -1,0 +1,151 @@
+produto_origem_id;sku;produto;categoria;marca;custo;preco;ativo
+1;TF-0001;Mini PC Vertex;Computadores;Vertex;2047.13;3286.15;1
+2;TF-0002;Monitor 27 Vertex;Monitores;Vertex;1814.12;2804.62;1
+3;TF-0003;Headset Pulse;Perifericos;Pulse;1498.39;2227.82;1
+4;TF-0004;Monitor 32 Nexa;Monitores;Nexa;2527.41;4045.61;1
+5;TF-0005;Monitor 32 Nexa;Monitores;Nexa;143.06;194.61;1
+6;TF-0006;Switch Pulse;Redes;Pulse;1487.82;2311.93;1
+7;TF-0007;Access Point Aster;Redes;Aster;2753.76;4485.62;1
+8;TF-0008;SSD 512GB Nexa;Armazenamento;Nexa;1301.24;2102.89;1
+9;TF-0009;Switch Pulse;Redes;Pulse;72.08;111.35;1
+10;TF-0010;Mouse Pulse;Perifericos;Pulse;1492.59;2418.99;1
+11;TF-0011;Monitor 27 Aster;Monitores;Aster;1716.79;2017.80;1
+12;TF-0012;Monitor 24 Pulse;Monitores;Pulse;1384.55;1845.27;1
+13;TF-0013;Notebook Pulse;Computadores;Pulse;618.85;791.46;1
+14;TF-0014;SSD 512GB Nexa;Armazenamento;Nexa;317.61;514.06;1
+15;TF-0015;Headset Aster;Perifericos;Aster;3036.91;5004.40;1
+16;TF-0016;Hub USB Vertex;Perifericos;Vertex;1071.03;1438.74;1
+17;TF-0017;Monitor 24 Vertex;Monitores;Vertex;1701.82;2519.67;1
+18;TF-0018;Monitor 32 Vertex;Monitores;Vertex;1489.18;2453.99;1
+19;TF-0019;Hub USB Nexa;Perifericos;Nexa;323.76;424.02;1
+20;TF-0020;Teclado Pulse;Perifericos;Pulse;334.68;408.26;1
+21;TF-0020;Monitor 27 Vertex;Monitores;Vertex;684.74;938.81;1
+22;TF-0022;SSD 1TB Pulse;Armazenamento;Pulse;1265.97;1706.26;1
+23;TF-0023;Monitor 32 Orion;Monitores;Orion;348.05;493.88;1
+24;TF-0024;Monitor 32 Nexa;Monitores;Nexa;2697.88;4271.98;1
+25;TF-0025;Mouse Nexa;Perifericos;Nexa;1429.62;1886.25;1
+26;TF-0026;Monitor 32 Pulse;Monitores;Pulse;3006.03;4063.79;1
+27;TF-0027;Access Point Nexa;Redes;Nexa;2417.38;3060.19;1
+28;TF-0028;SSD 1TB Aster;Armazenamento;Aster;1024.47;1189.12;1
+29;TF-0029;Roteador Aster;Redes;Aster;890.46;1352.80;1
+30;TF-0030;Roteador Pulse;Redes;Pulse;2582.25;3649.89;1
+31;TF-0031;SSD 512GB Pulse;Armazenamento;Pulse;1508.50;2112.34;1
+32;TF-0032;HD 2TB Orion;Armazenamento;Orion;2560.07;3746.60;1
+33;TF-0033;Notebook Orion;Computadores;Orion;1305.18;1527.18;1
+34;TF-0034;Desktop Aster;Computadores;Aster;2946.44;4799.37;1
+35;TF-0035;SSD 512GB Nexa;Armazenamento;Nexa;1869.59;2576.25;1
+36;TF-0036;Webcam Vertex;Perifericos;Vertex;900.00;750.00;1
+37;TF-0037;Monitor 32 Aster;Monitores;Aster;797.74;1108.70;1
+38;TF-0038;Access Point Nexa;Redes;Nexa;2946.19;4307.56;1
+39;TF-0039;HD 2TB Pulse;Armazenamento;Pulse;608.79;775.77;1
+40;TF-0040;Monitor 24 Nexa;Monitores;Nexa;622.33;913.30;1
+41;TF-0041;Roteador Orion;Redes;Orion;2133.09;2636.08;1
+42;TF-0042;Hub USB Orion;Perifericos;Orion;2978.72;3573.98;1
+43;TF-0043;HD 2TB Pulse;Armazenamento;Pulse;2373.79;2826.35;1
+44;TF-0044;Hub USB Aster;Perifericos;Aster;2518.95;3993.68;1
+45;TF-0045;Access Point Aster;Redes;Aster;1672.98;2135.85;1
+46;TF-0046;SSD 512GB Aster;Armazenamento;Aster;3139.81;4034.83;1
+47;TF-0047;Roteador Pulse;Redes;Pulse;943.18;1305.83;1
+48;TF-0048;Notebook Nexa;Computadores;Nexa;283.23;430.77;1
+49;TF-0049;Desktop Vertex;perifericos;Vertex;232.24;311.00;1
+50;TF-0050;Access Point Orion;Redes;Orion;3048.76;4315.28;1
+51;TF-0051;Switch Pulse;Redes;Pulse;481.15;720.45;1
+52;TF-0052;Monitor 32 Vertex;Monitores;Vertex;173.90;251.68;1
+53;TF-0053;Monitor 32 Aster;Monitores;Aster;187.96;277.99;1
+54;TF-0054;Mini PC Vertex;Computadores;Vertex;2377.74;3826.56;1
+55;TF-0055;Notebook Orion;Computadores;Orion;336.55;445.91;1
+56;TF-0056;Roteador Vertex;Redes;Vertex;179.26;246.35;1
+57;TF-0057;Monitor 32 Aster;Monitores;Aster;630.26;1017.95;1
+58;TF-0058;Notebook Aster;Computadores;Aster;2728.38;3773.48;1
+59;TF-0059;SSD 512GB Aster;Armazenamento;Aster;1003.93;1192.71;1
+60;TF-0060;SSD 512GB Orion;Armazenamento;Orion;2103.59;2475.82;1
+61;TF-0061;Webcam Vertex;Perifericos;Vertex;1020.90;1272.24;1
+62;TF-0062;HD 2TB Vertex;Armazenamento;Vertex;1122.66;1355.63;1
+63;TF-0063;Monitor 24 Nexa;Monitores;;3132.61;4338.24;1
+64;TF-0064;Teclado Orion;Perifericos;Orion;86.47;108.53;1
+65;TF-0065;Access Point Pulse;Redes;Pulse;624.67;988.99;1
+66;TF-0066;Monitor 27 Vertex;Monitores;Vertex;1297.09;2009.94;1
+67;TF-0067;Access Point Pulse;Redes;Pulse;1196.59;1882.98;1
+68;TF-0068;Monitor 24 Pulse;Monitores;Pulse;1518.13;2132.23;1
+69;TF-0069;Hub USB Pulse;Perifericos;Pulse;2242.12;2916.95;1
+70;TF-0070;Notebook Nexa;Computadores;Nexa;846.48;977.26;1
+71;TF-0071;Desktop Pulse;Computadores;Pulse;785.98;1244,57;1
+72;TF-0072;Mini PC Aster;Computadores;Aster;1976.63;2825.95;1
+73;TF-0073;Hub USB Aster;Perifericos;Aster;2629.96;3374.72;1
+74;TF-0074;Mini PC Orion;Computadores;Orion;924.44;1300.85;1
+75;TF-0075;SSD 1TB Nexa;Armazenamento;Nexa;676.03;854.84;1
+76;TF-0076;Monitor 24 Orion;Monitores;Orion;314.89;472.12;1
+77;TF-0077;Monitor 24 Pulse;Monitores;Pulse;3097.02;4209.05;1
+78;TF-0078;Teclado Vertex;Perifericos;Vertex;1620.63;2045.43;1
+79;TF-0079;Notebook Aster;Computadores;Aster;915.28;1287.60;1
+80;TF-0080;Monitor 32 Aster;Monitores;Aster;258.44;378.04;1
+81;TF-0081;Hub USB Nexa;Perifericos;Nexa;3180.18;4287.65;1
+82;TF-0082;Monitor 32 Aster;Monitores;Aster;2292.17;2965.89;1
+83;TF-0083;Switch Vertex;Redes;Vertex;2272.65;2943.89;1
+84;TF-0084;Desktop Nexa;Computadores;Nexa;1805.17;2309.59;1
+85;TF-0085;SSD 1TB Vertex;Armazenamento;Vertex;2036.81;2710.01;1
+86;TF-0086;SSD 512GB Aster;Armazenamento;Aster;1833.04;2788.30;1
+87;TF-0087;SSD 1TB Orion;Armazenamento;Orion;2890.36;3907.29;1
+88;TF-0088;SSD 1TB Nexa;Armazenamento;Nexa;1895.95;2804.55;1
+89;TF-0089;Monitor 32 Nexa;Monitores;Nexa;537.85;797.35;1
+90;TF-0090;Mini PC Orion;Computadores;Orion;56.55;74.10;1
+91;TF-0091;Mouse Pulse;Perifericos;Pulse;1593.59;2082.60;1
+92;TF-0092;  Mouse Aster  ;Perifericos;Aster;341.81;562.45;1
+93;TF-0093;Monitor 27 Orion;Monitores;Orion;2359.78;2820.79;1
+94;TF-0094;Desktop Orion;Computadores;Orion;1298.39;1645.75;1
+95;TF-0095;Monitor 32 Pulse;Monitores;Pulse;807.95;1037.29;1
+96;TF-0096;Desktop Vertex;Computadores;Vertex;2394.60;3210.60;1
+97;TF-0097;Mouse Nexa;Perifericos;Nexa;151.69;225.36;1
+98;TF-0098;Access Point Vertex;Redes;Vertex;607.29;818.84;1
+99;TF-0099;Monitor 24 Pulse;Monitores;Pulse;2357.95;3187.78;1
+100;TF-0100;Monitor 32 Aster;Monitores;Aster;1111.11;1584.63;1
+101;TF-0101;Webcam Nexa;Perifericos;Nexa;1194.46;1510.58;1
+102;TF-0102;Headset Aster;Perifericos;Aster;2102.68;2681.43;1
+103;TF-0103;SSD 1TB Orion;Armazenamento;Orion;1444.44;1726.52;1
+104;TF-0104;HD 2TB Nexa;Armazenamento;Nexa;2246.90;3210.14;1
+105;TF-0105;Webcam Nexa;Perifericos;Nexa;2043.93;3013.53;1
+106;TF-0106;SSD 1TB Vertex;Armazenamento;Vertex;2222.41;3481.89;1
+107;TF-0107;HD 2TB Aster;Armazenamento;Aster;1150.28;1362.84;1
+108;TF-0108;Desktop Pulse;Computadores;Pulse;679.25;1071.66;1
+109;TF-0109;Teclado Nexa;Perifericos;Nexa;640.39;744.54;1
+110;TF-0110;Desktop Orion;Computadores;Orion;2050.24;2365.09;1
+111;TF-0111;Mini PC Nexa;Computadores;Nexa;2787.78;3644.11;1
+112;TF-0112;HD 2TB Orion;Armazenamento;Orion;2667.68;3897.36;1
+113;TF-0113;SSD 512GB Vertex;Armazenamento;Vertex;896.84;1116.01;1
+114;TF-0114;Webcam Nexa;Perifericos;Nexa;1339.45;2011.27;1
+115;TF-0115;Headset Vertex;Perifericos;Vertex;129.27;157.90;1
+116;TF-0116;Access Point Orion;Redes;Orion;417.15;686.59;1
+117;TF-0117;SSD 1TB Vertex;Armazenamento;Vertex;1241.43;1912.92;1
+118;TF-0118;Mini PC Vertex;Computadores;Vertex;2802.03;4272.79;1
+119;TF-0119;HD 2TB Orion;Armazenamento;Orion;1802.48;2539.58;1
+120;TF-0120;Webcam Pulse;Perifericos;Pulse;500.06;623.09;1
+121;TF-0121;Desktop Nexa;Computadores;Nexa;1085.13;1413.01;ATIVO
+122;TF-0122;SSD 512GB Nexa;Armazenamento;Nexa;858.16;1079.65;1
+123;TF-0123;Webcam Orion;Perifericos;Orion;1811.22;2942.56;1
+124;TF-0124;Webcam Vertex;Perifericos;Vertex;248.76;405.61;1
+125;TF-0125;Notebook Orion;Computadores;Orion;404.63;624.71;1
+126;TF-0126;Notebook Vertex;Computadores;Vertex;1123.28;1753.32;1
+127;TF-0127;Monitor 32 Pulse;Monitores;Pulse;1833.30;2267.12;1
+128;TF-0128;Mini PC Orion;Computadores;Orion;1363.78;1644.42;1
+129;TF-0129;Headset Nexa;Perifericos;Nexa;1111.62;1357.53;1
+130;TF-0130;Access Point Nexa;Redes;Nexa;1812.20;2831.35;1
+131;TF-0131;Hub USB Orion;Perifericos;Orion;3041.10;3758.82;1
+132;TF-0132;Teclado Pulse;Perifericos;Pulse;219.13;300.09;1
+133;TF-0133;SSD 512GB Aster;Armazenamento;Aster;1915.22;2494.35;1
+134;TF-0134;Switch Nexa;Redes;Nexa;182.10;238.30;1
+135;TF-0135;Access Point Orion;Redes;Orion;655.96;1031.05;1
+136;TF-0136;Monitor 32 Pulse;Monitores;Pulse;2148.44;2496.19;1
+137;TF-0137;Mouse Nexa;Perifericos;Nexa;2648.83;3381.64;1
+138;TF-0138;SSD 1TB Pulse;Armazenamento;Pulse;2532.98;3081.23;1
+139;TF-0139;Access Point Aster;Redes;Aster;2310.63;3127.54;1
+140;TF-0140;SSD 1TB Aster;Armazenamento;Aster;334.11;544.36;1
+141;TF-0141;Monitor 24 Nexa;Monitores;Nexa;1188.77;1583.49;1
+142;TF-0142;Monitor 27 Nexa;Monitores;Nexa;2911.73;4138.53;1
+143;TF-0143;Webcam Aster;Perifericos;Aster;3006.83;3563.25;1
+144;TF-0144;Notebook Orion;Computadores;Orion;2826.04;3895.89;1
+145;TF-0145;Monitor 24 Aster;Monitores;Aster;2065.41;3241.79;1
+146;TF-0146;Roteador Orion;Redes;Orion;1040.82;1493.53;1
+147;TF-0147;Desktop Aster;Computadores;Aster;1269.97;1890.15;1
+148;TF-0148;Mini PC Vertex;Computadores;Vertex;546.74;745.62;1
+149;TF-0149;Desktop Vertex;Computadores;Vertex;2017.04;3265.62;1
+150;TF-0150;Webcam Pulse;Perifericos;Pulse;3190.48;4496.36;1

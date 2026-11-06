@@ -1,0 +1,10 @@
+{
+  "projeto": "TechFlow Analytics A3",
+  "arquivos": {
+    "clientes.csv": 1000,
+    "produtos.csv": 150,
+    "pedidos.json": 3000,
+    "entregas.json": 2266
+  },
+  "observacao": "Dados sinteticos para exercicio academico de ETL. Incluem inconsistencias intencionais para tratamento e auditoria."
+}
